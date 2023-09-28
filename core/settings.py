@@ -81,12 +81,12 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'gxolp',
-        'USER': 'gxadmin',
+        'NAME': 'lmsolp',
+        'USER': 'lxadmin',
         'PASSWORD': 'Next&2024%%',
         'HOST': 'localhost',
         'PORT': '',
-    }
+        }
 }
 
 
