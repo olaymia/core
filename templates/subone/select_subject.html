@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Subject</title>
+
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" />
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+    <header class="position-fixed w-100 z-index-100 top-0">
+        <nav class="py-3 bg-primary-linear-gradient text-center">
+            <a href="" class="text-decoration-none text-white">
+                <img class="img-fluid w-150 h-24" src="{% static 'images/gemsnext-white-logo.svg' %}" alt="Image" />
+            </a>
+        </nav>
+    </header>
+    <!-- choose subject sections start -->
+    <main class="bg-pink-x">
+        <div class="vh-100 d-flex align-items-center justify-content-center flex-column">
+            <div class="flex-grow-1 d-flex align-items-center justify-content-center flex-column w-100">
+
+                <div class="container text-center">
+                    <h4 class="mb-64">
+                        Choose the
+                        <span class="text-primary-linear-gradient">Subject</span> you want
+                        to attempt
+                    </h4>
+                    <!-- options start -->
+                    <div class="row justify-content-center">
+                        {% for subject in subjects %}
+                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+
+                            <a href="{% url 'select_quantity' subject.id %}">
+                                <button class="btn btn-primary font-18 fw-bold w-100 h-100">{{subject.name}}</button>
+
+                            </a>
+
+                        </div>
+                        {% endfor %}
+
+                    </div>
+                     <!-- options end -->
+                </div>
+            </div>
+
+            <!-- prev next section end -->
+        </div>
+    </main>
+    <!-- choose subject sections end -->
+</body>
+
+</html>

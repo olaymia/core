@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Questions</title>
+
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" />
+    <!-- Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+  </head>
+
+  <body>
+    <header class="position-fixed w-100 z-index-100">
+      <nav class="py-3 bg-primary-linear-gradient text-center">
+        <a href="" class="text-decoration-none text-white">
+          <img
+            class="img-fluid w-150 h-24"
+            src="{% static 'images/gemsnext-white-logo.svg' %}"
+            alt=""
+          />
+        </a>
+      </nav>
+    </header>
+    <!-- number of questions section start -->
+    <main class="bg-pink-x">
+      <div
+        class="vh-100 d-flex align-items-center justify-content-center flex-column"
+      >
+        <div
+          class="flex-grow-1 d-flex align-items-center justify-content-center flex-column w-100"
+        >
+          <div class="container text-center">
+            <h4 class="mb-64">
+              Choose the
+              <span class="text-primary-linear-gradient"
+                >Number of Questions</span
+              >
+              you want to attempt
+            </h4>
+            <!-- options start -->
+            <div class="row justify-content-center">
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+
+                
+                 <a href="{% url 'start_topic_quiz' topic.id %}?num_questions=20">
+                 <button class="btn btn-primary font-18 fw-bold w-100 h-100"> 20</button>
+                  </a>
+
+              </div>
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+
+                  <a href="{% url 'start_topic_quiz' topic.id %}?num_questions=40">
+                 <button class="btn btn-primary font-18 fw-bold w-100 h-100"> 40</button>
+                  </a>
+
+              </div>
+              <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+
+                  <a href="{% url 'start_topic_quiz' topic.id %}?num_questions=60">
+                 <button class="btn btn-primary font-18 fw-bold w-100 h-100"> 60</button>
+                  </a>
+
+              </div>
+            </div>
+            <!-- options end -->
+          </div>
+        </div>
+        <!-- prev next section start -->
+        <!-- <div class="d-flex mb-4">
+          <div class="prev d-flex me-5">
+            <button
+              class="p-2 bg-transparent border-body border-radius-8 d-flex align-items-center me-3 bg-primary-hover"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+              >
+                <path
+                  d="M16.625 10.5H4.375"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.5 4.375L4.375 10.5L10.5 16.625"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="border-body border-radius-8 py-2 px-3 bg-primary-hover font-14 text-dark text-black fw-bold"
+            >
+              Prev
+            </button>
+          </div>
+          <div class="next d-flex">
+            <button
+              class="border-body border-radius-8 py-2 px-3 me-3 bg-primary-hover font-14 text-black fw-bold"
+            >
+              Next
+            </button>
+            <button
+              class="p-2 bg-transparent border-body border-radius-8 d-flex align-items-center bg-primary-hover"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="21"
+                viewBox="0 0 21 21"
+                fill="none"
+              >
+                <path
+                  d="M4.375 10.5H16.625"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M10.5 4.375L16.625 10.5L10.5 16.625"
+                  stroke="black"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div> -->
+        <!-- prev next section end -->
+      </div>
+    </main>
+     <!-- number of questions section end -->
+  </body>
+</html>

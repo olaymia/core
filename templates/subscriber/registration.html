@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title> SignUp Page </title>
+
+  <link rel="icon" href="{% static 'images/favicon.ico' %}">
+
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css'%}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}">
+</head>
+
+<body>
+  <!-- signup details section start -->
+  <section >
+    <div class="row align-items-center">
+      <div
+          class="col-md-6 bg-primary-linear-gradient position-relative login-left-side ">
+          <div class="h-100 pt-80 d-flex flex-column align-items-center px-80">
+            <div
+              class="flex-grow-1 text-center d-flex justify-content-center align-items-center flex-column">
+              <a href="#" class="cursor-pointer">
+                <img
+                  class="mb-20 d-flex align-items-center justify-content-center img-fluid"
+                  src="{% static 'images/gemsnext-white-logo.svg' %}" alt>
+              </a>
+              <p class="text-white text-center font-14 fw-bold">Ut enim ad minim
+                veniam, quis ullamco laboris nisi ut
+                aliquip
+                ex ea com. Ut enim ad minim veniam, quis ullamco Ut enim ad
+                minim.</p>
+            </div>
+            <img class="d-md-block d-none w-50 login-img"
+              src="{% static 'images/login-img.png' %}" alt="image">
+          </div>
+        </div>
+    <!-- user data for sign up section start -->
+      <div class="col-md-6 px-40 py-md-5 py-4 login-right-side">
+        <div class="login-form-space mx-auto">
+        <h5 class="text-center mb-40">SIGN UP</h5>
+
+            {% include 'base/msg.html' %}
+
+
+      <form method="post" action="{% url 'register' %}">
+
+            {% csrf_token %}
+
+          <label class="font-weight-semibold d-block text-secondary">First Name </label>
+
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 mb-20 border-active-pink" type="text"
+           id="first_name" name="first_name" placeholder="Enter your first name">
+
+
+          <label class="font-weight-semibold d-block text-secondary">Last Name</label>
+
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 mb-20 border-active-pink" type="text"
+            id="last_name" name="last_name" placeholder="Enter your last name">
+
+          <label class="font-weight-semibold d-block text-secondary">Email</label>
+
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 mb-20 border-active-pink" type="text"
+            id="email" name="email" placeholder="Enter your email">
+
+           <label class="font-weight-semibold d-block text-secondary">User Name</label>
+
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 mb-20 border-active-pink" type="text"
+            id="username" name="username" placeholder="Create user name">
+
+          <label class="font-weight-semibold d-block text-secondary">Contact Number
+          </label>
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 mb-20 border-active-pink" type="text"
+            id="phone" name="phone" placeholder="Enter your contact number">
+
+          <label class="font-weight-semibold d-block text-secondary">Password
+          </label>
+          <input class="mt-1 py-2 px-12 w-100 border-grey border-radius-8 border-active-pink" type="password"
+          id="password" name="password" placeholder="Create your password">
+
+          <label class="mt-10 mb-40 cursor-pointer custom-checkbox position-relative ps-4 font-14">Ut enim ad minim
+            veniam, quis ullamco laboris
+            nisi ut aliquip oi
+            <input class="d-none pink-checkbox" type="checkbox" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+
+        <div class="px-md-5 px-4">
+          <div class="text-center mb-4">
+            <button class="btn btn-primary mb-12 py-2 w-170" type="submit">Sign Up</button>
+
+            <p class="font-14 text-center">Already have an account? <span><a
+                  class="btn btn-primary-link text-decoration-none" href="{% url 'login' %}">Login</a></span>
+            </p>
+          </div>
+      </form>
+
+
+          <div class="login-or-line mb-4 text-center">
+            <span class="text-or bg-white position-relative px-2 ">or</span>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <a href="#" class="btn btn-primary-outline me-12 py-2 w-170">Google</a>
+            <a href="#" class="btn btn-primary-outline py-2 w-170">Facebook</a>
+          </div>
+        </div>
+      </div>
+       <!-- user data for sign up section end-->
+    </div>
+    </div>
+  </section>
+<!-- signup details section end -->
+</body>
+
+</html>

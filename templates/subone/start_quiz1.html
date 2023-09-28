@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Question Page</title>
+
+  <link rel="icon" href="{% static 'images/favicon.ico' %}" />
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+  <header class="position-fixed w-100 z-index-100 top-0">
+    <nav class="py-3 bg-primary-linear-gradient position-relative text-center px-2">
+      <button
+        class="text-white question-number d-md-none btn right-sidebar-list p-0 menu-line position-absolute fw-normal">
+        5/25
+        <img class="ms-1" src="{% static 'images/down-arrow.svg' %}" alt />
+      </button>
+      <button class="question-icon d-md-none btn p-0 ms-2 me-3 end-0 position-absolute">
+        <img src="{% static 'images/three-dot.svg' %}" alt />
+      </button>
+      <a href class="text-decoration-none text-white ms-md-0 ms-4">
+        <img class="img-fluid w-150 h-24" src="{% static 'images/gemsnext-white-logo.svg' %}" alt />
+      </a>
+    </nav>
+  </header>
+
+
+  <div class="que-descrptions-overlay"></div>
+  <form class="questions">
+    <div class="container">
+      <div class="row mt-100 pl-56 mx-0">
+        <!-- question start -->
+        <div class="col-lg-6 px-0">
+          <div class="questions-details bg-grey-light py-32 px-32">
+
+      <h1>Quiz Question</h1>
+      <p>Subject: {{ subject.name }}</p>
+ 
+      <h2>Question{{question_index }}</h2>
+      <p>{{ current_question.text }}</p>
+    
+      <form method="post" action="{% url 'submit_quiz' %}">
+        {% csrf_token %}
+        <input type="hidden" name="question_id" value="{{ current_question.id }}">
+        
+        {% for choice in current_question.choice.all %}
+            <label>
+                <input type="radio" name="answer" value="{{ choice.id }}"> {{ choice.choice_text }}
+            </label><br>
+        {% endfor %}
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <a href="{% url 'quiz_complete' %}">Finish Quiz</a>
+
+
+
+         <!-- question start -->
+
+          <!-- questions img start -->
+          <div class="text-center">
+            <img src="{% static '/images/graph.png' %}" alt="graph" class="d-none d-lg-block" />
+          </div>
+           <!-- questions img end -->
+        </div>
+
+
+       <!-- on click submit questions-description start -->
+        <div class="col-lg-6 d-none ans-desc">
+          <div class="questions-description p-3 pb-0 p-md-0 mb-82">
+            <span class="font-18 text-secondary fw-bold d-inline-block mb-2">Description</span>
+            <p class="font-16 mb-0">
+              Ut enim ad minim veniam, quis ullamco laboris nisi ut aliquip ex
+              ea com. Ut eiam, quis ullamco laboris nisi ut aliquip ex ea com.
+              Ut enim ad minim ven iam, quis ullamco laboris nisi uuip ex ea
+              com. Ut enim ad minim veniam, Ut enim ad minim.
+            </p>
+          </div>
+        </div>
+        <!-- on click submit questions-description start -->
+      </div>
+    </div>
+  </form>
+  <!-- qustions details section end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  <!-- right sidebar start -->
+  <div class="question-right-sidebar-overlay"></div>
+  <aside class="d-flex flex-column mt-md-5 mt-0 pt-4 questions-right-sidebar">
+    <!-- bookmark section start-->
+    <button
+      class="btn d-flex flex-column border-radius-0 justify-content-center align-items-center font-14 mb-3 px-md-0 px-2 position-relative">
+      <span class="badge text-white bg-danger rounded-circle px-2 py-1 font-12">2</span>
+      <span class="box-shadow-light-black pb-1 py-2 px-3 bg-white"><img src="{% static 'images/bookmark.svg' %}"
+          class="w-auto h-32" alt="bookmark" /></span>
+      <span class="text-secondary font-12"> Bookmark</span>
+    </button>
+    <!-- bookmark section end-->
+    <!-- notes section start-->
+    <button
+      class="btn d-flex notes flex-column border-radius-0 justify-content-center align-items-center font-14 px-md-0 px-2 mb-3">
+      <span class="box-shadow-light-black py-2 px-3 bg-white"><img src="{% static 'images/notes.svg' %}" class="w-auto h-32"
+          alt="notes" /></span>
+      <span class="text-secondary font-12"> Notes</span>
+    </button>
+    <!-- notes section end-->
+
+    <!-- lab values btn start -->
+    <div class="lab-value-overlay"></div>
+    <button
+      class="btn d-flex flex-column border-radius-0 justify-content-center align-items-center font-14 px-md-0 px-2 mb-3 btn-lab-value">
+      <span class="box-shadow-light-black py-2 px-3 bg-white"><img src="{% static 'images/lab-value.svg' %}"
+          class="w-auto h-32" alt /></span>
+      <span class="text-secondary font-12">Lab Values</span>
+    </button>
+    <!-- lab values btn end -->
+
+
+     <!-- on clilck lab Values sidebar start -->
+    <div class="box-shadow-light-black lab-value-sidebar">
+      <div class="offcanvas-header p-2">
+        <button type="button" class="lab-close-ico btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="h-scroll">
+        <ul class="nav d-flex nav-tabs mb-3 border-0 w-100 px-3 flex-nowrap text-nowrap" id="myTab" role="tablist">
+          <li class="nav-item tab-items-name w-100 me-2" role="presentation">
+            <button
+              class="nav-link font-14 position-relative active font-13 fw-bold w-100 me-1 border-0 py-2 text-body bg-grey-light border-bottom-primary active-primary-line"
+              id="grand-mock-test" data-bs-toggle="tab" data-bs-target="#blood" type="button" role="tab"
+              aria-controls="blood" aria-selected="true">
+              Blood
+            </button>
+          </li>
+          <li class="nav-item tab-items-name w-100 me-2" role="presentation">
+            <button
+              class="nav-link font-14 position-relative font-13 w-100 fw-bold me-1 border-0 py-2 text-body bg-grey-light active-primary-line"
+              id="self-assessment" data-bs-toggle="tab" data-bs-target="#Hematologic" type="button" role="tab"
+              aria-controls="Hematologic" aria-selected="false">
+              Hematologic
+            </button>
+          </li>
+
+          <li class="nav-item tab-items-name w-100 me-2" role="presentation">
+            <button
+              class="nav-link font-14 position-relative font-13 w-100 fw-bold me-1 border-0 py-2 text-body bg-grey-light active-primary-line"
+              id="self-assessment" data-bs-toggle="tab" data-bs-target="#Cerebrospinal" type="button" role="tab"
+              aria-controls="profile" aria-selected="false">
+              Cerebrospinal
+            </button>
+
+          </li>
+          <li class="nav-item tab-items-name w-100" role="presentation">
+            <button
+              class="nav-link font-14 position-relative font-13 w-100 fw-bold me-1 border-0 py-2 text-body bg-grey-light active-primary-line"
+              id="self-assessment" data-bs-toggle="tab" data-bs-target="#Sweat" type="button" role="tab"
+              aria-controls="profile" aria-selected="false">
+              Sweat, Urine, BMI
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="tab-content h-100" id="myTabContent">
+        <div class="tab-pane fade show active h-100 p-3" id="blood" role="tabpanel" aria-labelledby="blood">
+          <iframe src="{% static 'images/Lab Values _ Blood.pdf' %}"
+            style="width: 100%; height: 100%; border: none"></iframe>
+        </div>
+        <div class="tab-pane fade h-100 p-3" id="Hematologic" role="tabpanel" aria-labelledby="Hematologic">
+          <iframe src="{% static 'images/Lab Values _ Blood.pdf' %}"
+            style="width: 100%; height: 100%; border: none"></iframe>
+        </div>
+        <div class="tab-pane fade h-100 p-3" id="Cerebrospinal" role="tabpanel" aria-labelledby="Cerebrospinal">
+          <iframe src="{% static 'images/Lab Values _ Blood.pdf' %}"
+            style="width: 100%; height: 100%; border: none"></iframe>
+        </div>
+        <div class="tab-pane fade h-100 p-3" id="Sweat" role="tabpanel" aria-labelledby="Sweat">
+          <iframe src="{% static 'images/Lab Values _ Blood.pdf' %}"
+            style="width: 100%; height: 100%; border: none"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- on clilck lab Values sidebar  end-->
+
+
+    <!-- calculator section start-->
+    <button
+      class="btn d-flex flex-column border-radius-0 justify-content-center align-items-center font-14 px-md-0 px-2 mb-3">
+      <span class="box-shadow-light-black py-2 px-3 bg-white">
+        <img src="{% static 'images/calculator.svg' %}" class="w-auto h-32" alt />
+      </span>
+      <span class="text-secondary font-12">Calculator</span>
+    </button>
+  </aside>
+  <!-- calculator section end-->
+
+
+  <!-- right sidebar end -->
+
+   <!-- footer start -->
+  <footer class="bg-black px-md-32 py-1 py-sm-2 position-fixed bottom-0 w-100 z-index-115">
+    <div class="row">
+      <!-- Attempted Ques start -->
+      <div class="col-6 col-sm-4 mb-2 mb-sm-0">
+        <span class="text-white font-14-sm-11">{{topics.name}}</span>
+      </div>
+      <!-- Attempted Ques end -->
+      <!-- Time Left start -->
+      <div class="col-6 col-sm-3 text-start text-sm-center mb-2 mb-sm-0">
+        <span class="text-white font-14-sm-11">Time Left : 80:22</span>
+      </div>
+      <!-- Time Left start -->
+
+      <div class="col-12 col-sm-5 d-flex justify-content-between text-sm-end d-sm-block">
+        <!-- Feedback btn start -->
+        <button class="text-white mr-40 font-14 font-sm-12 me-2 bg-transparent border-0 ps-0 w-sm-50 text-start">
+          <svg class="me-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M22 16.3333C22 16.9227 21.7659 17.4879 21.3491 17.9047C20.9324 18.3214 20.3671 18.5556 19.7778 18.5556H6.44444L2 23V5.22222C2 4.63285 2.23413 4.06762 2.65087 3.65087C3.06762 3.23413 3.63285 3 4.22222 3H19.7778C20.3671 3 20.9324 3.23413 21.3491 3.65087C21.7659 4.06762 22 4.63285 22 5.22222V16.3333ZM12.2161 7.76936C11.832 7.70348 11.4369 7.77566 11.1009 7.97313C10.7649 8.1706 10.5097 8.4806 10.3804 8.84824C10.2429 9.23899 9.81471 9.44432 9.42397 9.30686C9.03323 9.16941 8.8279 8.74122 8.96535 8.35048C9.21223 7.64867 9.69952 7.05688 10.3409 6.67993C10.9823 6.30298 11.7364 6.16518 12.4697 6.29095C13.2029 6.41673 13.868 6.79795 14.3471 7.3671C14.8261 7.93609 15.0883 8.65618 15.0874 9.39991C15.0871 10.5979 14.1985 11.3935 13.5533 11.8237C13.2078 12.054 12.8676 12.2236 12.6167 12.3351C12.4903 12.3913 12.3838 12.4339 12.3072 12.4631C12.2689 12.4777 12.2378 12.489 12.2153 12.497L12.188 12.5066L12.1794 12.5095L12.1764 12.5105L12.1752 12.5109L12.1747 12.5111C12.1745 12.5112 12.1743 12.5112 11.9371 11.7997L12.1743 12.5112C11.7813 12.6422 11.3566 12.4298 11.2256 12.0369C11.0948 11.6444 11.3064 11.2203 11.6984 11.0887L11.6991 11.0885L11.6992 11.0884L11.6995 11.0884L11.7 11.0882L11.7128 11.0837C11.7254 11.0792 11.746 11.0717 11.7732 11.0613C11.8279 11.0405 11.909 11.0081 12.0075 10.9643C12.2068 10.8758 12.4666 10.7453 12.7212 10.5756C13.276 10.2058 13.5874 9.80139 13.5874 9.39945V9.39833C13.5879 9.00861 13.4506 8.63125 13.1996 8.3331C12.9486 8.03495 12.6002 7.83525 12.2161 7.76936ZM15.0874 9.39991V9.39945H14.3374L15.0874 9.40057L15.0874 9.39991ZM12.001 14.25C11.5868 14.25 11.251 14.5858 11.251 15C11.251 15.4142 11.5868 15.75 12.001 15.75H12.009C12.4232 15.75 12.759 15.4142 12.759 15C12.759 14.5858 12.4232 14.25 12.009 14.25H12.001Z"
+              fill="white" />
+          </svg>Feedback
+        </button>
+        <!-- Feedback btn end -->
+        <!-- finish btn start -->
+        <a href="./congratulations.html" class="w-sm-50"> <button class="text-start text-white font-14 font-sm-12 bg-transparent border-0 me-sm-0">
+          <img class="me-1" src="../assets/images/finish.svg" alt="finish" />Finish
+        </button></a>
+        <!-- finish btn start -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer end-->
+
+
+  <script src="{% static 'js/gemsnext-compress.js' %}"></script>
+
+</body>
+
+</html>

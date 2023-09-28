@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="73px" height="96px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.05 1.37"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#E31E24}
+    .fil1 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="0" y1="0.68" x2="0.07" y2="0.68">
+   <stop offset="0" style="stop-opacity:1; stop-color:#AFAFAF"/>
+   <stop offset="0.509804" style="stop-opacity:1; stop-color:gainsboro"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#AEAEAE"/>
+  </linearGradient>
+ </defs>
+ <g id="PowerClip_x0020_Contents">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2212140220320">
+   <path class="fil0" d="M1.05 0.72c0,-0.01 -0.01,-0.01 -0.01,-0.02l-0.14 -0.23c0,-0.01 -0.01,-0.01 -0.01,-0.02 -0.02,-0.04 -0.01,-0.08 0.01,-0.12l0.14 -0.23c0.02,-0.03 0,-0.04 -0.01,-0.04l-0.96 0c-0.01,0 -0.02,0.02 -0.02,0.03l0 0.62c0,0.02 0.01,0.03 0.03,0.03 0.32,0 0.64,0 0.95,0 0.01,0 0.02,-0.01 0.02,-0.02z"/>
+   <path class="fil1" d="M0.04 0l0 0c0.02,0 0.03,0.02 0.03,0.04l0 1.29c0,0.02 -0.01,0.04 -0.03,0.04l0 0c-0.02,0 -0.04,-0.02 -0.04,-0.04l0 -1.29c0,-0.02 0.02,-0.04 0.04,-0.04z"/>
+  </g>
+ </g>
+</svg>

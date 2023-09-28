@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="180px" height="45px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7792.12 1181.15"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:#7400B8}
+    .fil0 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="0" y1="654.31" x2="7792.12" y2="654.31">
+   <stop offset="0" style="stop-opacity:1; stop-color:#7400B8"/>
+   <stop offset="0.701961" style="stop-opacity:1; stop-color:#7400B8"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#7400B8"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="6859.62" y1="654.93" x2="7792.12" y2="654.93">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2591966244208">
+   <path class="fil0" d="M7266.72 1166.61l0 -846.54 -407.1 0.43 121.88 -177.03 810.62 0 0 176.11 -326 0.29 0 846.74 -199.4 0zm-2049.78 -174.65l513.73 0 0 174.65 -513.73 0 -52.39 0 -145.54 0 0 -1023.14 145.54 0 52.39 0 506.46 0 0 174.64 -506.46 0 0 241.62 462.81 0 0 168.8 -462.81 0 0 263.43zm-322.81 106.47l2.41 -954.96 -196.47 0 -2.44 684.46 196.5 270.5zm-202.92 68.18l-456.16 -647.49 0 647.49 -197.95 0 0 -1023.14 138.27 0 721.17 1024.26 -205.33 -1.12zm-1152.27 14.54c-82.48,0 -153.06,-14.07 -211.76,-42.2 -58.71,-28.13 -111.82,-70.35 -159.37,-126.62l130.99 -130.98c30.08,39.79 65.02,70.58 104.79,92.42 39.77,21.83 88.3,32.74 145.53,32.74 51.42,0 92.42,-10.19 122.98,-30.57 30.57,-20.37 45.85,-48.51 45.85,-84.41 0,-31.05 -8.73,-56.27 -26.2,-75.68 -17.46,-19.4 -40.51,-35.89 -69.15,-49.48 -28.59,-13.58 -60.14,-25.95 -94.58,-37.12 -34.45,-11.14 -68.89,-24 -103.31,-38.55 -34.46,-14.56 -66,-32.75 -94.61,-54.58 -28.63,-21.84 -51.68,-49.96 -69.13,-84.41 -17.49,-34.45 -26.21,-77.86 -26.21,-130.26 0,-62.09 15.06,-114.97 45.11,-158.64 30.08,-43.66 71.33,-77.13 123.72,-100.43 52.39,-23.28 111.58,-34.91 177.54,-34.91 69.87,0 132.93,13.1 189.22,39.28 56.26,26.21 102.34,60.17 138.25,101.89l-130.97 130.98c-30.1,-33 -60.89,-57.24 -92.44,-72.78 -31.51,-15.51 -67.18,-23.28 -106.97,-23.28 -45.59,0 -81.5,8.74 -107.68,26.21 -26.2,17.45 -39.32,42.68 -39.32,75.68 0,28.12 8.76,50.93 26.22,68.4 17.45,17.47 40.51,32.49 69.13,45.12 28.61,12.59 60.16,24.75 94.59,36.38 34.45,11.66 68.91,24.74 103.34,39.29 34.44,14.56 65.98,33.49 94.59,56.76 28.64,23.29 51.67,53.11 69.14,89.5 17.47,36.39 26.2,81.27 26.2,134.61 0,95.1 -33.46,169.81 -100.42,224.14 -66.95,54.33 -158.66,81.5 -275.07,81.5zm-482.01 -960.44l0 945.9 -196.48 0 0 -622.16 196.48 -323.74zm-1071.67 945.9l0 -1023.14 197.37 0 357.11 663.64 -37.11 -68.97 370.41 -594.67 183.89 0 -490.98 813.56 -65.96 0 -67.94 0 -248.86 -474.45 0 0 0 684.03 -197.93 0zm-635.86 -174.65l513.75 0 0 174.65 -513.75 0 -52.39 0 -145.53 0 0 -1023.14 145.53 0 52.39 0 506.47 0 0 174.64 -506.47 0 0 241.62 462.82 0 0 168.8 -462.82 0 0 263.43zm-825.45 189.19c-72.78,0 -141.08,-13.48 -204.49,-40.02 -63.39,-26.55 -119.35,-64.28 -167.36,-112.8 -48.04,-48.51 -85.39,-104.54 -112.07,-168.09 -26.69,-63.55 -40.03,-132.19 -40.03,-205.93 0,-74.72 13.73,-143.99 40.76,-207.39 27.04,-63.39 65.01,-119.34 113.52,-167.37 48.51,-48.04 105.27,-85.39 170.28,-112.06 65,-26.69 135.34,-40.02 211.02,-40.02 84.4,0 162.03,15.77 232.86,47.29 70.83,31.54 129.54,75.94 176.1,133.17l-133.89 133.9c-32.02,-41.73 -71.79,-73.74 -119.34,-96.06 -47.54,-22.32 -99.94,-33.47 -157.19,-33.47 -64.99,0 -122.49,14.31 -172.45,42.92 -49.98,28.62 -89.03,68.4 -117.16,119.34 -28.13,50.94 -42.21,110.38 -42.21,178.3 0,67.92 13.82,127.82 41.47,179.73 27.66,51.91 65.5,92.42 113.52,121.53 48.04,29.09 103.11,43.65 165.18,43.65 64.05,0 118.87,-11.89 164.46,-35.64 45.62,-23.79 80.54,-58.72 104.78,-104.79 24.28,-46.1 36.39,-102.61 36.39,-169.57 0.32,29.74 -2.93,59.31 -8.01,88.79l-309.24 -4.38 0 -171.71 521.01 0 0 27.66c0,121.95 -21.81,224.36 -65.48,306.34 -43.67,81.99 -103.59,143.58 -179.74,184.83 -76.17,41.24 -163.74,61.85 -262.69,61.85z"/>
+   <polygon class="fil1" points="7266.72,1166.49 7266.72,319.96 6859.62,320.39 6981.5,143.36 7792.12,143.36 7792.12,319.47 7466.12,319.76 7466.12,1166.49 "/>
+   <g>
+    <polygon class="fil2" points="6617.04,150.67 6820.98,150.67 6792.95,190.21 6589.61,190.21 "/>
+    <polygon class="fil2" points="6564.79,226 6767.58,226 6739.54,265.55 6537.36,265.55 "/>
+    <polygon class="fil2" points="6512.54,301.33 6714.17,301.33 6686.13,340.88 6485.11,340.88 "/>
+    <polygon class="fil2" points="6460.29,376.67 6660.76,376.67 6632.73,416.21 6432.86,416.21 "/>
+    <path class="fil2" d="M5843.43 452l217.5 0 29.59 39.55 -217.08 0 -30.01 -39.55zm564.61 0l199.32 0 -28.04 39.55 -198.71 0 27.43 -39.55z"/>
+    <path class="fil2" d="M5900.59 527.33l216.71 0 29.6 39.55 -216.3 0 -30.01 -39.55zm455.2 0l198.16 0 -28.04 39.55 -197.55 0 27.43 -39.55z"/>
+    <path class="fil2" d="M5957.76 602.66l215.92 0 29.59 39.55 -215.51 0 -30 -39.55zm345.78 0l197 0 -28.03 39.55 -196.4 0 27.43 -39.55z"/>
+    <polygon class="fil2" points="6014.92,677.99 6230.05,677.99 6241.08,692.73 6251.29,677.99 6447.14,677.99 6419.1,717.54 6044.93,717.54 "/>
+    <polygon class="fil2" points="6072.08,753.33 6393.73,753.33 6365.7,792.87 6102.09,792.87 "/>
+    <polygon class="fil2" points="6120.22,828.66 6351.28,828.66 6379.77,868.21 6091.73,868.21 "/>
+    <polygon class="fil2" points="6065.95,903.99 6405.54,903.99 6434.02,943.54 6037.46,943.54 "/>
+    <path class="fil2" d="M6011.68 979.33l197.84 0 -26.44 39.54 -199.89 0 28.49 -39.54zm238.67 0l209.45 0 28.48 39.54 -210.83 0 -27.1 -39.54z"/>
+    <path class="fil2" d="M5957.41 1054.66l201.74 0 -26.44 39.55 -203.79 0 28.49 -39.55zm344.55 0l212.09 0 28.49 39.55 -213.49 0 -27.09 -39.55z"/>
+    <path class="fil2" d="M5903.14 1129.99l205.65 0 -26.44 39.55 -207.7 0 28.49 -39.55zm450.43 0l214.74 0 28.48 39.55 -216.13 0 -27.09 -39.55z"/>
+    <polygon class="fil2" points="6669.29,75.33 6874.39,75.33 6846.35,114.88 6641.86,114.88 "/>
+    <polygon class="fil2" points="6721.54,0 6927.79,0 6899.76,39.55 6694.11,39.55 "/>
+   </g>
+  </g>
+ </g>
+</svg>
+
+
+
+
+
+
+ <section class="container-fluid pl-186 pe-0">
+      <div class="row pt-56 mx-0">
+        <div class="col-lg-8 mt-4 px-0 center-part offset-lg-1">
+          <!-- <div class="center-content px-3">
+            <div class="mock-test">
+              <div class="position-relative bg-white-linear-gradient p-3 text-center border-radius-8 pb-158">
+                <span class="position-absolute self-section-cross-bg-img end-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="418" height="380" viewBox="0 0 418 380" fill="none">
+                    <path d="M31.3951 -0.249176H172.933L166.738 -9.69894H24.7799L31.3951 -0.249176Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M0 380H136.236L142.484 370.603H6.72038L0 380Z" fill="#7400B8" fill-opacity="0.05" />
+                    <path d="M76.0194 63.1173H214.828L208.633 53.72H69.4046L76.0194 63.1173Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M303.604 158.193L310.219 148.795H136.341L142.956 158.193H303.604Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M53.7074 31.4078H193.881L187.686 22.0105H47.0923L53.7074 31.4078Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M151.986 -31.958L145.791 -41.3553H2.46796L9.08275 -31.958H151.986Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M22.6272 348.291H157.288L163.483 338.893H29.295L22.6272 348.291Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M45.2022 316.634H178.288L184.536 307.237H51.9222L45.2022 316.634Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M67.8294 284.925H199.34L205.535 275.527H74.5495L67.8294 284.925Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M312.057 189.849L305.494 180.452H142.431L135.659 189.849H312.057Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M415.376 338.893H275.307L281.397 348.291H421.886L415.376 338.893Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M334.001 221.558L327.491 212.161H119.804L113.084 221.558H334.001Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M332.584 117.086H114.029L120.644 126.483H325.969L332.584 117.086Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M90.4567 253.268H355.999V253.215L349.436 243.871H97.1767L90.4567 253.215V253.268Z"
+                      fill="#7400B8" fill-opacity="0.05" />
+                    <path d="M377.261 53.72H247.483L241.025 63.1173H370.593L377.261 53.72Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M354.949 85.3769H91.717L98.3317 94.7742H348.281L354.949 85.3769Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M371.433 275.527H234.2L240.342 284.925H377.944L371.433 275.527Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M399.573 22.0105H269.374L262.865 31.4078H392.958L399.573 22.0105Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M393.431 307.237H254.78L260.87 316.634H399.941L393.431 307.237Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M350.486 -95.3244H482.312L488.927 -104.774H356.944L350.486 -95.3244Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M438.055 -222.109H571.666L578.281 -231.506H444.513L438.055 -222.109Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M328.594 -63.6674H460L466.615 -73.0647H335.052L328.594 -63.6674Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M295.834 370.603L301.924 380H443.883L437.373 370.603H295.834Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M690 -390H553.974L547.517 -380.55H683.385L690 -390Z" fill="#7400B8" fill-opacity="0.05" />
+                    <path d="M667.688 -358.291H532.082L525.572 -348.841H661.02L667.688 -358.291Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M372.379 -127.033H504.677L511.292 -136.431H378.889L372.379 -127.033Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M416.111 -190.4H549.301L555.969 -199.849H422.673L416.111 -190.4Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M623.011 -294.925H488.297L481.787 -285.475H616.343L623.011 -294.925Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M645.323 -326.582H510.19L503.68 -317.184H638.708L645.323 -326.582Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M600.646 -263.215H466.405L459.948 -253.765H593.978L600.646 -263.215Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M421.938 -9.69894H291.32L284.809 -0.249176H415.323L421.938 -9.69894Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M394.218 -158.743H526.989L533.604 -168.14H400.728L394.218 -158.743Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                    <path d="M306.702 -31.958H437.635L444.303 -41.3553H313.159L306.702 -31.958Z" fill="#7400B8"
+                      fill-opacity="0.05" />
+                  </svg>
+                </span>
+                <h1 class="text-primary-linear-gradient my-3">Grand NExT Mock Test</h1>
+                <p class="text-body px-2 px-md-5 font-16 font-family-mulish  mb-40">There are many variations of
+                  passages of
+                  Lorem
+                  Ipsum. available, but the majority. Variations of passages of Lorem Ipsum. available, but the majority
+                </p>
+              </div>
+              <div class="row mx-0 mt-170 mb-56">
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-white-smoke box-shadow h-100">
+                    <div class="card-body text-start">
+                      <h3 class="card-title  text-primary fw-bold">1 - Day</h3>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <button class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-silver-phoneix box-shadow h-100">
+                    <div class="card-body text-start">
+                      <h3 class="card-title  text-primary fw-bold">2 - Day</h3>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <button class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-soft-silver box-shadow h-100">
+                    <div class="card-body text-start ">
+                      <h3 class="card-title  text-primary fw-bold">3 - Day</h3>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <button class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-assessment">
+              <div
+                class="position-relative self-assessment-head bg-primary-linear-gradient p-3 text-center border-radius-8 pb-158">
+                <span class="position-absolute self-section-cross-bg-img">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="513" height="479" viewBox="0 0 513 479" fill="none">
+                    <path d="M23.3416 196.035H128.572L123.966 189.003H18.4233L23.3416 196.035Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M0 479H101.289L105.934 472.007H4.99646L0 479Z" fill="white" fill-opacity="0.15" />
+                    <path d="M56.5188 243.19H159.72L155.114 236.197H51.6008L56.5188 243.19Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M225.723 313.941L230.641 306.948H101.367L106.285 313.941H225.723Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M39.9303 219.593H144.146L139.54 212.6H35.0121L39.9303 219.593Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M112.998 172.439L108.393 165.446H1.83487L6.75283 172.439H112.998Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M16.8228 455.403H116.941L121.546 448.41H21.7802L16.8228 455.403Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M33.6069 431.846H132.553L137.198 424.853H38.603L33.6069 431.846Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M50.4297 408.249H148.205L152.811 401.256H55.4259L50.4297 408.249Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M232.007 337.498L227.128 330.505H105.894L100.859 337.498H232.007Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M308.823 448.41H204.685L209.213 455.403H313.663L308.823 448.41Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M248.323 361.095L243.483 354.102H89.0716L84.0754 361.095H248.323Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M247.269 283.351H84.778L89.6963 290.344H242.351L247.269 283.351Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M67.2526 384.692H264.677V384.652L259.798 377.698H72.2487L67.2526 384.652V384.692Z"
+                      fill="white" fill-opacity="0.15" />
+                    <path d="M280.486 236.197H183.998L179.197 243.19H275.528L280.486 236.197Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M263.897 259.755H68.1896L73.1075 266.748H258.94L263.897 259.755Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M276.153 401.256H174.123L178.689 408.249H280.993L276.153 401.256Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M297.074 212.6H200.274L195.434 219.593H292.156L297.074 212.6Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M292.507 424.853H189.423L193.951 431.846H297.347L292.507 424.853Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M260.579 125.285H358.589L363.507 118.252H265.38L260.579 125.285Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M325.684 30.937H425.021L429.94 23.9439H330.486L325.684 30.937Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M244.303 148.842H342L346.918 141.849H249.104L244.303 148.842Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M219.946 472.007L224.474 479H330.017L325.177 472.007H219.946Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M513 -94H411.868L407.067 -86.9679H508.082L513 -94Z" fill="white" fill-opacity="0.15" />
+                    <path d="M496.411 -70.4032H395.591L390.751 -63.3711H491.454L496.411 -70.4032Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M276.855 101.688H375.216L380.134 94.6952H281.695L276.855 101.688Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M309.369 54.5337H408.394L413.351 47.5016H314.248L309.369 54.5337Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M463.195 -23.2492H363.038L358.198 -16.2171H458.238L463.195 -23.2492Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M479.784 -46.8069H379.315L374.475 -39.8138H474.865L479.784 -46.8069Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M446.567 0.34761H346.762L341.961 7.37973H441.61L446.567 0.34761Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M313.702 189.003H216.59L211.749 196.035H308.784L313.702 189.003Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M293.093 78.0915H391.805L396.723 71.0984H297.933L293.093 78.0915Z" fill="white"
+                      fill-opacity="0.15" />
+                    <path d="M228.026 172.439H325.372L330.329 165.446H232.827L228.026 172.439Z" fill="white"
+                      fill-opacity="0.15" />
+                  </svg>
+                </span>
+                <h4 class="text-secondary my-3">PRE, PARA & CLINICAL - ASSESSMENT</h4>
+                <p class="text-white px-2 px-md-5 font-16 font-family-mulish op-08 mb-40">There are many variations of
+                  passages
+                  of
+                  Lorem Ipsum. available, but the majority. Variations of passages of Lorem Ipsum. available, but the
+                  majority</p>
+              </div>
+              <div class="row mx-0 mt-170 mb-56">
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-white-smoke box-shadow h-100 ">
+                    <div class="card-body text-start">
+                      <div class="card-body-head d-flex justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Pre-Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-pink border-radius-50 p-2 d-inline-block"><img
+                            src="./assets/images/clinical-icon.svg" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div>
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer d-flex justify-content-between flex-wrap">
+                        <button class="mb-1 border-0 bg-transparent text-body font-12 primary-hover">Upgrade
+                          plan</button>
+                        <button class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-silver-phoneix box-shadow h-100 ">
+                    <div class="card-body text-start">
+                      <div class="card-body-head d-flex justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Pre-Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-pink border-radius-50 p-2 d-inline-block"><img
+                            src="./assets/images/clinical-icon.svg" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div>
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer d-flex justify-content-between flex-wrap">
+                        <button class=" mb-1  border-0 bg-transparent text-body font-12 primary-hover">Upgrade
+                          plan</button>
+                        <button class="btn btn-primary-outline fw-normal  py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-soft-silver box-shadow h-100">
+                    <div class="card-body text-start">
+                      <div class="card-body-head d-flex justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Pre-Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-pink border-radius-50 p-2 d-inline-block"><img
+                            src="./assets/images/clinical-icon.svg" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div>
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer d-flex justify-content-between flex-wrap">
+                        <button class=" mb-1 border-0 bg-transparent text-body font-12 primary-hover">Upgrade
+                          plan</button>
+                        <button class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="round-chart  mx-0 row mb-56 p-2 p-sm-4">
+              <div class="left-side col-md-6 text-center mb-3 mb-md-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+                  <path
+                    d="M74.8834 10.4866C48.5384 22.0164 26.9746 42.2775 13.8275 67.8539C0.68045 93.4303 -3.24574 122.758 2.71088 150.891C8.66748 179.025 24.1426 204.245 46.5271 222.299C68.9117 240.352 96.8365 250.135 125.594 249.999L125.505 231.249C101.061 231.365 77.3249 223.049 58.298 207.704C39.2712 192.358 26.1174 170.922 21.0542 147.008C15.9911 123.094 19.3284 98.1657 30.5034 76.4258C41.6784 54.6858 60.0076 37.4639 82.4009 27.6636L74.8834 10.4866Z"
+                    fill="#566A8B" />
+                  <path
+                    d="M78.1504 9.11163C95.1016 2.25885 113.35 -0.791798 131.608 0.174795C149.867 1.14139 167.691 6.10169 183.824 14.7059C199.957 23.3102 214.005 35.3488 224.98 49.9731C235.954 64.5973 243.587 81.451 247.339 99.3458C251.092 117.241 250.873 135.741 246.698 153.542C242.523 171.343 234.494 188.011 223.177 202.372C211.859 216.732 197.53 228.435 181.198 236.655C164.866 244.875 146.929 249.412 128.653 249.947L128.105 231.205C143.64 230.75 158.886 226.894 172.768 219.907C186.65 212.92 198.83 202.972 208.45 190.766C218.07 178.559 224.895 164.391 228.443 149.26C231.992 134.13 232.178 118.404 228.988 103.194C225.799 87.9834 219.311 73.6577 209.983 61.2271C200.655 48.7965 188.713 38.5636 175 31.25C161.287 23.9364 146.137 19.7202 130.617 18.8986C115.097 18.077 99.5864 20.67 85.1778 26.4949L78.1504 9.11163Z"
+                    fill="#89BF48" />
+                </svg>
+
+
+              </div>
+              <div class="right-side col-md-6 text-center">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+                  <path
+                    d="M74.8834 10.4866C48.5384 22.0164 26.9746 42.2775 13.8275 67.8539C0.68045 93.4303 -3.24574 122.758 2.71088 150.891C8.66748 179.025 24.1426 204.245 46.5271 222.299C68.9117 240.352 96.8365 250.135 125.594 249.999L125.505 231.249C101.061 231.365 77.3249 223.049 58.298 207.704C39.2712 192.358 26.1174 170.922 21.0542 147.008C15.9911 123.094 19.3284 98.1657 30.5034 76.4258C41.6784 54.6858 60.0076 37.4639 82.4009 27.6636L74.8834 10.4866Z"
+                    fill="#566A8B" />
+                  <path
+                    d="M78.1504 9.11163C95.1016 2.25885 113.35 -0.791798 131.608 0.174795C149.867 1.14139 167.691 6.10169 183.824 14.7059C199.957 23.3102 214.005 35.3488 224.98 49.9731C235.954 64.5973 243.587 81.451 247.339 99.3458C251.092 117.241 250.873 135.741 246.698 153.542C242.523 171.343 234.494 188.011 223.177 202.372C211.859 216.732 197.53 228.435 181.198 236.655C164.866 244.875 146.929 249.412 128.653 249.947L128.105 231.205C143.64 230.75 158.886 226.894 172.768 219.907C186.65 212.92 198.83 202.972 208.45 190.766C218.07 178.559 224.895 164.391 228.443 149.26C231.992 134.13 232.178 118.404 228.988 103.194C225.799 87.9834 219.311 73.6577 209.983 61.2271C200.655 48.7965 188.713 38.5636 175 31.25C161.287 23.9364 146.137 19.7202 130.617 18.8986C115.097 18.077 99.5864 20.67 85.1778 26.4949L78.1504 9.11163Z"
+                    fill="#89BF48" />
+                </svg>
+
+              </div>
+            </div>
+            <div class="perfomance-progress mb-80 ">
+              <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="topic-progress bg-white border-radius-8 card h-100">
+                    <div class="card-body text-center p-20">
+                      <span
+                        class="position-relative after-black-line font-20 font-family-urbanist text-secondary font-weight-semibold d-inline-block mb-4 pb-1">TOPIC
+                        PROGRESS</span>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress border-radius-46-px bg-purple-light w-100 h-10" role="progressbar"
+                          aria-label="Basic example 6px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="performance bg-white border-radius-8 card h-100">
+                    <div class="card-body text-center">
+                      <span
+                        class="position-relative after-black-line font-20 font-family-urbanist text-secondary font-weight-semibold d-inline-block mb-4 pb-1">PERFORMANCE</span>
+                      <svg version="1.1" class="w-100" style="font-family: Roboto; font-size: 12px;"
+                        xmlns="http://www.w3.org/2000/svg" width="650" height="400" viewBox="0 0 650 400"
+                        aria-hidden="false" aria-label="Interactive chart">
+                        <defs aria-hidden="true">
+                          <clipPath>
+                            <rect x="0" y="0" width="598" height="282" fill="none"></rect>
+                          </clipPath>
+                          <clipPath>
+                            <rect x="0" y="0" width="598" height="282" fill="none"></rect>
+                          </clipPath>
+                        </defs>
+                        <rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true">
+                        </rect>
+                        <rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect>
+                        <g data-z-index="0" aria-hidden="true"></g>
+                        <rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true">
+                        </rect>
+                        <g data-z-index="1" aria-hidden="true">
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327"
+                            opacity="1"></path>
+                        </g>
+                        <g data-z-index="1" aria-hidden="true">
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 327.5 L 640 327.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 44.5 L 640 44.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 257.5 L 640 257.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 186.5 L 640 186.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 116.5 L 640 116.5" opacity="1"></path>
+                        </g>
+                        <g data-z-index="2" aria-hidden="true">
+                          <path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7"
+                            d="M 42 327.5 L 640 327.5"></path>
+                        </g>
+                        <g data-z-index="2" aria-hidden="true">
+                          <path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path>
+                        </g>
+                        <g data-z-index="3" aria-hidden="false">
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)"
+                            clip-path="url(#highcharts-1it3igm-8-)" aria-hidden="true">
+                            <path fill="none"
+                              d="M 49.833333333333 160.74 C 49.833333333333 160.74 109.63333333333321 124.08000000000001 149.5 124.08000000000001 C 189.366666666664 124.08000000000001 209.299999999996 143.82 249.16666666666 143.82 C 289.033333333328 143.82 308.96666666666204 14.100000000000023 348.83333333333 14.100000000000023 C 388.699999999998 14.100000000000023 408.633333333332 14.100000000000023 448.5 53.58000000000001 C 488.36666666666406 93.06 548.16666666666 217.14 548.16666666666 217.14"
+                              data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round"
+                              stroke-linecap="round"></path>
+                            <path fill="none"
+                              d="M 49.833333333333 160.74 C 49.833333333333 160.74 109.63333333333321 124.08000000000001 149.5 124.08000000000001 C 189.366666666664 124.08000000000001 209.299999999996 143.82 249.16666666666 143.82 C 289.033333333328 143.82 308.96666666666204 14.100000000000023 348.83333333333 14.100000000000023 C 388.699999999998 14.100000000000023 408.633333333332 14.100000000000023 448.5 53.58000000000001 C 488.36666666666406 93.06 548.16666666666 217.14 548.16666666666 217.14"
+                              data-z-index="2" stroke-linecap="round" stroke-linejoin="round"
+                              stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none"
+                            style="cursor: pointer; outline: none;" aria-hidden="false" role="region" tabindex="-1"
+                            aria-label="Item 1, line 1 of 2 with 6 data points.">
+                            <path fill="#6f58e9" d="M 149 124.08000000000001 A 0 0 0 1 1 149 124.08000000000001 Z"
+                              data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path>
+                            <path fill="#6f58e9" d="M 49 164.74 A 4 4 0 1 1 49.00399999933334 164.73999800000018 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 1, 43. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9" d="M 149 128.08 A 4 4 0 1 1 149.00399999933333 128.0799980000002 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 2, 56. Item 1."
+                              style="outline: none;" stroke-width="0.0025244915093498577"></path>
+                            <path fill="#6f58e9" d="M 249 147.82 A 4 4 0 1 1 249.00399999933333 147.81999800000017 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 3, 49. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9"
+                              d="M 348 18.100000000000023 A 4 4 0 1 1 348.00399999933336 18.09999800000019 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 4, 95. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9"
+                              d="M 448 57.58000000000001 A 4 4 0 1 1 448.00399999933336 57.57999800000018 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 5, 81. Item 1." style="outline: none;">
+                            </path>
+                            <path fill="#6f58e9" d="M 548 221.14 A 4 4 0 1 1 548.0039999993334 221.13999800000016 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 6, 23. Item 1."
+                              style="outline: none;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)"
+                            clip-path="url(#highcharts-1it3igm-8-)" aria-hidden="true">
+                            <path fill="none"
+                              d="M 49.833333333333 248.16 C 49.833333333333 248.16 109.63333333333321 248.16 149.5 236.88 C 189.366666666664 225.6 209.299999999996 205.859999999999 249.16666666666 186.12 C 289.033333333328 166.37999999999903 308.96666666666204 149.46 348.83333333333 138.18 C 388.699999999998 126.9 408.633333333332 126.9 448.5 126.9 C 488.36666666666406 126.9 548.16666666666 149.46 548.16666666666 149.46"
+                              data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round"
+                              stroke-linecap="round"></path>
+                            <path fill="none"
+                              d="M 49.833333333333 248.16 C 49.833333333333 248.16 109.63333333333321 248.16 149.5 236.88 C 189.366666666664 225.6 209.299999999996 205.859999999999 249.16666666666 186.12 C 289.033333333328 166.37999999999903 308.96666666666204 149.46 348.83333333333 138.18 C 388.699999999998 126.9 408.633333333332 126.9 448.5 126.9 C 488.36666666666406 126.9 548.16666666666 149.46 548.16666666666 149.46"
+                              data-z-index="2" stroke-linecap="round" stroke-linejoin="round"
+                              stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none"
+                            style="cursor: pointer; outline: none;" aria-hidden="false" role="region" tabindex="-1"
+                            aria-label="Item 2, line 2 of 2 with 6 data points.">
+                            <path fill="#94d13d" d="M 249 186.12 A 0 0 0 1 1 249 186.12 Z" data-z-index="-1"
+                              fill-opacity="0.25" visibility="hidden"></path>
+                            <path fill="#94d13d" d="M 49 244.16 L 53 248.16 L 49 252.16 L 45 248.16 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 1, 12. Item 2." style="outline: none;"
+                              stroke-width="0.00003943894778490886"></path>
+                            <path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 2, 16. Item 2." style="outline: none;"
+                              stroke-width="0.000009869571931497845"></path>
+                            <path fill="#94d13d" d="M 249 182.12 L 253 186.12 L 249 190.12 L 245 186.12 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 3, 34. Item 2." style="outline: none;"
+                              stroke-width="0.0025244915093498577"></path>
+                            <path fill="#94d13d" d="M 348 134.18 L 352 138.18 L 348 142.18 L 344 138.18 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 4, 51. Item 2." style="outline: none;">
+                            </path>
+                            <path fill="#94d13d" d="M 448 122.9 L 452 126.9 L 448 130.9 L 444 126.9 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 5, 55. Item 2." style="outline: none;">
+                            </path>
+                            <path fill="#94d13d" d="M 548 145.46 L 552 149.46 L 548 153.46 L 544 149.46 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 6, 47. Item 2." style="outline: none;">
+                            </path>
+                          </g>
+                        </g>
+                        <g data-z-index="3" aria-hidden="true">
+                          <g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)">
+                            <title>Chart context menu</title>
+                            <rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none"
+                              stroke-width="1"></rect>
+                            <path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5"
+                              data-z-index="1" stroke="#666666" stroke-width="3"></path><text
+                              font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5"
+                              style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text>
+                          </g>
+                        </g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4"
+                          style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24"
+                          aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325"
+                          text-anchor="middle" data-z-index="4"
+                          style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44"
+                          aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start"
+                          data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397"
+                          aria-hidden="true"></text>
+                        <g data-z-index="7" aria-hidden="true" transform="translate(252,359)">
+                          <rect fill="none" rx="0" ry="0" x="0" y="0" width="145" height="26"></rect>
+                          <g data-z-index="1">
+                            <g>
+                              <g data-z-index="1" transform="translate(8,3)">
+                                <path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path>
+                                <path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z"
+                                  opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21"
+                                  text-anchor="start" data-z-index="2" y="15"
+                                  style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);">Item
+                                  1</text>
+                              </g>
+                              <g data-z-index="1" transform="translate(82.79999923706055,3)">
+                                <path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path>
+                                <path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text
+                                  font-family='Roboto-Regular,Roboto' x="21" y="15" text-anchor="start" data-z-index="2"
+                                  style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);">Item
+                                  2</text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                        <g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto'
+                            x="91.83333333333667" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto'
+                            x="191.49999999999665" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto'
+                            x="291.1666666666667" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto'
+                            x="390.83333333332666" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto'
+                            x="490.49999999999665" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto'
+                            x="590.1666666666666" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 6</text></g>
+                        <g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)" y="262" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">25</text><text
+                            font-family='Roboto-Regular,Roboto' x="27" text-anchor="end" transform="translate(0,0)"
+                            y="191" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">50</text><text
+                            font-family='Roboto-Regular,Roboto' x="27" text-anchor="end" transform="translate(0,0)"
+                            y="121" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">75</text>
+                        </g>
+                      </svg>
+                      <p class="font-14 mb-0"> Your productivity is <span class="text-primary">40%</span> higher
+                        compared to last month</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 text-center mt-56">
+                  <button class="btn btn-primary w-170">View Your Report</button>
+                </div>
+              </div>
+            </div>
+            <div class="guest-lectures p-32 bg-light-pink-liner-gradient border-radius-8">
+              <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                  <div class="guest-lectures-left h-100 d-flex flex-column">
+                    <div class="guest-lectures-left-heading text-center">
+                      <h5 class="font-20 fw-semibold mb-3 after-black-line pb-2 position-relative d-inline-block">
+                        GUEST-LECTURES</h5>
+                    </div>
+                    <div class="card flex-grow-1">
+                      <div class="card-body  border-radius-8 nav-owl-none">
+                        <div class="owl-carousel owl-theme guest-lectures-carousel">
+                          <div class="item">
+                            <div class="guest-lectures-left-img">
+                              <img src="./assets/images/user.jpg" alt="doctor" class="border-radius-8">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <g filter="url(#filter0_b_191_3733)">
+                                  <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                  <path
+                                    d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                    fill="url(#paint0_linear_191_3733)" />
+                                  <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                    stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                </g>
+                                <defs>
+                                  <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                    height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                      result="effect1_backgroundBlur_191_3733" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                      result="shape" />
+                                  </filter>
+                                  <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                    y2="22.8233" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7400B8" />
+                                    <stop offset="0.789583" stop-color="#FF00FF" />
+                                  </linearGradient>
+                                </defs>
+                              </svg>
+                            </div>
+                            <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                            <p class="text-body font-12 mb-0">Surgeon</p>
+                          </div>
+                          <div class="item">
+                            <div class="guest-lectures-left-img">
+                              <img src="./assets/images/user.jpg" alt="doctor" class="border-radius-8">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <g filter="url(#filter0_b_191_3733)">
+                                  <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                  <path
+                                    d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                    fill="url(#paint0_linear_191_3733)" />
+                                  <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                    stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                </g>
+                                <defs>
+                                  <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                    height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                      result="effect1_backgroundBlur_191_3733" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                      result="shape" />
+                                  </filter>
+                                  <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                    y2="22.8233" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7400B8" />
+                                    <stop offset="0.789583" stop-color="#FF00FF" />
+                                  </linearGradient>
+                                </defs>
+                              </svg>
+                            </div>
+
+                            <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                            <p class="text-body font-12 mb-0">Surgeon</p>
+                          </div>
+                          <div class="item">
+                            <div class="guest-lectures-left-img">
+                              <img src="./assets/images/user.jpg" alt="doctor" class="border-radius-8">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                fill="none">
+                                <g filter="url(#filter0_b_191_3733)">
+                                  <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                  <path
+                                    d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                    fill="url(#paint0_linear_191_3733)" />
+                                  <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                    stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                </g>
+                                <defs>
+                                  <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                    height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                      result="effect1_backgroundBlur_191_3733" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                      result="shape" />
+                                  </filter>
+                                  <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                    y2="22.8233" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#7400B8" />
+                                    <stop offset="0.789583" stop-color="#FF00FF" />
+                                  </linearGradient>
+                                </defs>
+                              </svg>
+                            </div>
+
+                            <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                            <p class="text-body font-12 mb-0">Surgeon</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="guest-lectures-right h-100 d-flex flex-column">
+                    <div class="guest-lectures-left-heading text-center">
+                      <h5 class="font-20 fw-semibold mb-3 after-black-line pb-2 position-relative d-inline-block">
+                        RECOMMENDED TEST SERIES
+                      </h5>
+                    </div>
+                    <div class="card flex-grow-1">
+                      <div class="card-body ">
+                        <div class="guest-lectures-right-head d-md-flex justify-content-between mb-4">
+                          <img src="./assets/images/doctor.png" alt="doctor" width="72px" height="72px" />
+                          <div class="text-start text-md-end mt-3 mt-md-0">
+                            <h6 class="text-primary font-20 fw-semibold">Dr. Bhavya Jad</h6>
+                            <p class="mb-0 font-14 ps-0 ps-md-5">MD/MS Ophthalmology, DNB Ophthalmology
+                              Batra Hospital and Fortis Escorts Hospital</p>
+                          </div>
+                        </div>
+                        <div class="owl-carousel recommended-carousel owl-theme px-2">
+                          <div class="item text-center ">
+                            <img src="./assets/images/questions.svg" alt="questions" class=" h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                          <div class="item text-center">
+                            <img src="./assets/images/questions.svg" alt="questions" class="h-40 mb-2">
+                            <h6 class="font-20 text-secondary mb-2">Anatomy</h6>
+                            <span class="text-body font-14">Test1<span class="d-block">20 Questions</span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row bg-primary-linear-gradient refer-earn mt-2 mt-md-5  text-center p-3 border-radius-8 position-relative">
+              <div class="col-lg-6 mx-auto ">
+                <svg xmlns="http://www.w3.org/2000/svg " class="position-absolute top-0 start-0" width="373"
+                  height="207" viewBox="0 0 373 207" fill="none">
+                  <path d="M-20.2539 19.8382H64.2586L60.5597 14.1928H-24.2039L-20.2539 19.8382Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M-39 247H42.3467L46.0772 241.386H-34.9873L-39 247Z" fill="white" fill-opacity="0.15" />
+                  <path d="M6.3913 57.6935H89.274L85.5752 52.0795H2.44159L6.3913 57.6935Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M142.282 114.492L146.232 108.878H42.4096L46.3593 114.492H142.282Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M-6.93121 38.7501H76.7664L73.0673 33.1362H-10.8811L-6.93121 38.7501Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M51.751 0.895233L48.0521 -4.71872H-37.5264L-33.5767 0.895233H51.751Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M-25.4893 228.057H54.9172L58.6161 222.443H-21.5079L-25.4893 228.057Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M-12.0097 209.145H67.4562L71.1865 203.531H-7.99716L-12.0097 209.145Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M1.50106 190.202H80.0264L83.7255 184.588H5.51358L1.50106 190.202Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M147.33 133.404L143.411 127.79H46.0458L42.0021 133.404H147.33Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M209.021 222.443H125.386L129.023 228.057H212.908L209.021 222.443Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M160.433 152.347L156.546 146.733H32.5351L28.5226 152.347H160.433Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M159.586 89.9344H29.0868L33.0368 95.5483H155.637L159.586 89.9344Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M15.0118 171.29H173.567V171.259L169.649 165.676H19.0243L15.0118 171.259V171.29Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M186.263 52.0795H108.772L104.916 57.6935H182.282L186.263 52.0795Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M172.94 70.9914H15.7643L19.714 76.6054H168.959L172.94 70.9914Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M182.783 184.588H100.841L104.509 190.202H186.671L182.783 184.588Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M199.586 33.1362H121.844L117.957 38.7501H195.636L199.586 33.1362Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M195.918 203.531H113.13L116.766 209.145H199.805L195.918 203.531Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M170.276 -36.9601H248.989L252.939 -42.6054H174.132L170.276 -36.9601Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M222.563 -112.702H302.343L306.293 -118.316H226.419L222.563 -112.702Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M157.204 -18.0481H235.667L239.616 -23.662H161.06L157.204 -18.0481Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M137.643 241.386L141.279 247H226.043L222.156 241.386H137.643Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M373 -213H291.779L287.923 -207.355H369.05L373 -213Z" fill="white" fill-opacity="0.15" />
+                  <path d="M359.677 -194.057H278.707L274.82 -188.411H355.696L359.677 -194.057Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M183.348 -55.903H262.343L266.293 -61.5169H187.235L183.348 -55.903Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M209.46 -93.7583H288.989L292.97 -99.4036H213.378L209.46 -93.7583Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M333.001 -156.202H252.563L248.676 -150.556H329.02L333.001 -156.202Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M346.323 -175.114H265.635L261.748 -169.5H342.373L346.323 -175.114Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M319.646 -137.258H239.491L235.635 -131.613H315.665L319.646 -137.258Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M212.94 14.1928H134.947L131.06 19.8382H208.99L212.94 14.1928Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M196.388 -74.8463H275.666L279.616 -80.4603H200.275L196.388 -74.8463Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M144.132 0.895233H222.313L226.294 -4.71872H147.988L144.132 0.895233Z" fill="white"
+                    fill-opacity="0.15" />
+                </svg>
+                <h5 class="text-white my-0"><i>Refer And Earn</i></h5>
+                <p class="text-white font-14 mb-4">Ut enim ad minim veniam, quis ullamco laboris nisi ut aliquip ex ea
+                  com. Ut enim ad minim veniam, quis </p>
+                <button class="btn btn-white-outline border-radius-46-px w-170">Learn More</button>
+                <svg xmlns="http://www.w3.org/2000/svg " class="position-absolute top-0 end-0" width="348" height="207"
+                  viewBox="0 0 348 207" fill="none">
+                  <path d="M393.254 204.162H308.741L312.44 209.807H397.204L393.254 204.162Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M412 -23H330.653L326.923 -17.386H407.987L412 -23Z" fill="white" fill-opacity="0.15" />
+                  <path d="M366.609 166.307H283.726L287.425 171.921H370.558L366.609 166.307Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M230.718 109.508L226.768 115.122H330.59L326.641 109.508H230.718Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M379.931 185.25H296.234L299.933 190.864H383.881L379.931 185.25Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M321.249 223.105L324.948 228.719H410.526L406.577 223.105H321.249Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M398.489 -4.05673H318.083L314.384 1.55728H394.508L398.489 -4.05673Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M385.01 14.8548H305.544L301.814 20.4688H380.997L385.01 14.8548Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M371.499 33.7982H292.974L289.274 39.4121H367.486L371.499 33.7982Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M225.67 90.5964L229.589 96.2104H326.954L330.998 90.5964H225.67Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M163.979 1.55728H247.614L243.977 -4.05673H160.092L163.979 1.55728Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M212.567 71.6534L216.454 77.2674H340.465L344.477 71.6534H212.567Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M213.414 134.066H343.913L339.963 128.452H217.363L213.414 134.066Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M357.988 52.7101H199.433V52.7415L203.351 58.3241H353.976L357.988 52.7415V52.7101Z"
+                    fill="white" fill-opacity="0.15" />
+                  <path d="M186.737 171.921H264.228L268.084 166.307H190.718L186.737 171.921Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M200.06 153.009H357.236L353.286 147.395H204.041L200.06 153.009Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M190.217 39.4121H272.159L268.491 33.7982H186.329L190.217 39.4121Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M173.414 190.864H251.156L255.043 185.25H177.364L173.414 190.864Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M177.082 20.4688H259.87L256.234 14.8548H173.195L177.082 20.4688Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M202.724 260.96H124.011L120.061 266.605H198.868L202.724 260.96Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M150.437 336.702H70.6574L66.7075 342.316H146.581L150.437 336.702Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M215.796 242.048H137.333L133.384 247.662H211.94L215.796 242.048Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M235.357 -17.386L231.721 -23H146.957L150.844 -17.386H235.357Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M0 437H81.2213L85.077 431.355H3.94971L0 437Z" fill="white" fill-opacity="0.15" />
+                  <path d="M13.3228 418.057H94.2932L98.1803 412.411H17.3039L13.3228 418.057Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M189.652 279.903H110.657L106.707 285.517H185.765L189.652 279.903Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M163.54 317.758H84.0113L80.0302 323.404H159.622L163.54 317.758Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M39.9994 380.202H120.437L124.324 374.556H43.9805L39.9994 380.202Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M26.6767 399.114H107.365L111.252 393.5H30.6266L26.6767 399.114Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M53.3535 361.258H133.509L137.365 355.613H57.3347L53.3535 361.258Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M160.06 209.807H238.053L241.94 204.162H164.01L160.06 209.807Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M176.612 298.846H97.334L93.3841 304.46H172.725L176.612 298.846Z" fill="white"
+                    fill-opacity="0.15" />
+                  <path d="M228.868 223.105H150.687L146.706 228.719H225.012L228.868 223.105Z" fill="white"
+                    fill-opacity="0.15" />
+                </svg>
+              </div>
+            </div>
+
+          </div> -->
+          <!-- Table design start -->
+          <!-- <section class="section-padding-80 mx-3">
+            <div class="p-3 border-divider border-radius-8">
+              <h5 class="text-primary border-bottom-grey pt-3 pb-1">Top Rankers</h5>
+              <div class="dashboard-table">
+                <table class="w-100 ">
+                  <thead>
+                    <tr>
+                      <th class="min-w-75px">
+                        <span class="name-title position-relative"></span>
+                      </th>
+                      <th class="font-family-urbanist font-20 fw-semibold text-secondary w-225">
+                        Name</th>
+                      <th class=" w-150 font-family-urbanist font-20 fw-semibold text-secondary">City</th>
+                      <th class="w-150 font-family-urbanist font-20 fw-semibold text-secondary">University</th>
+                      <th class="w-150 font-family-urbanist font-20 fw-semibold text-secondary">Rank Hold</th>
+                      <th class=" w-150 font-family-urbanist font-20 fw-semibold text-secondary">Subject</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td class="min-w-75px">
+                        <img class="table-user-img w-56 h-56" src="./assets/images/user.jpg" alt="">
+                      </td>
+                      <td class="d-flex align-items-center w-225">
+                        <p class="text-primary fw-bold mb-0">John Jones
+                          <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                        </p>
+                      </td>
+                      <td class="text-secondary w-150">
+                        Delhi
+                      </td>
+                      <td class="text-secondary w-150">
+                        AIIMS
+                      </td>
+                      <td class="text-secondary w-150">
+                        1st Rank
+                      </td>
+                      <td class="text-secondary w-150">
+                        Anatomy
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="min-w-75px">
+                        <img class="table-user-img w-56 h-56" src="./assets/images/user.jpg" alt="">
+                      </td>
+                      <td class="d-flex align-items-center w-225">
+                        <p class="text-primary fw-bold mb-0">John Jones
+                          <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                        </p>
+                      </td>
+                      <td class="text-secondary w-150">
+                        Delhi
+                      </td>
+                      <td class="text-secondary w-150">
+                        AIIMS
+                      </td>
+                      <td class="text-secondary w-150">
+                        1st Rank
+                      </td>
+                      <td class="text-secondary w-150">
+                        Anatomy
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="min-w-75px">
+                        <img class="table-user-img w-56 h-56" src="./assets/images/user.jpg" alt="">
+                      </td>
+                      <td class="d-flex align-items-center w-225">
+                        <p class="text-primary fw-bold mb-0">John Jones
+                          <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                        </p>
+                      </td>
+                      <td class="text-secondary w-150">
+                        Delhi
+                      </td>
+                      <td class="text-secondary w-150">
+                        AIIMS
+                      </td>
+                      <td class="text-secondary w-150">
+                        1st Rank
+                      </td>
+                      <td class="text-secondary w-150">
+                        Anatomy
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </section> -->
+
+        </div>
+        <!-- Table design end -->
+
+        <!-- <div class="col-md-2 px-0 w-225 mt-4 h-100 right-side-bar">
+          <div class="p-2 bg-white">
+            <div class="d-lg-block d-flex flex-wrap align-items-center justify-content-between count-number">
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">6</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Ranked</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">45</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Days Left</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">40</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Test Attempted</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">5</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Mock Test Attempted</span>
+              </div>
+            </div>
+            <span
+              class="text-primary-linear-gradient font-18 text-center border-bottom-grey fw-bold mb-4 py-4 d-block">LATEST
+              CONTEST</span>
+            <div class="latest-contest-details d-lg-block d-flex justify-content-between">
+              <div class="text-center position-relative latest-contest mb-40">
+                <div class="card p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-2">Live</span>
+                  <img class="mx-auto w-50 d-block mb-2" src="./assets/images/enter-prize.png" alt="">
+                  <span class="d-block text-primary fw-semibold mb-2 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-2">There are many variations of passages of Lorem Ipsum</p>
+                  <button class="font-10 mb-2 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                    Contest</button>
+                </div>
+              </div>
+              <div class="text-center position-relative latest-contest mb-40">
+                <div class="card p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-2">Live</span>
+                  <img class="mx-auto w-50 d-block mb-2" src="./assets/images/enter-prize.png" alt="">
+                  <span class="d-block text-primary fw-semibold mb-2 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-2">There are many variations of passages of Lorem Ipsum</p>
+                  <button class="font-10 mb-2 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                    Contest</button>
+                </div>
+              </div>
+              <div class="text-center position-relative latest-contest mb-40">
+                <div class="card p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-2">Live</span>
+                  <img class="mx-auto w-50 d-block mb-2" src="./assets/images/enter-prize.png" alt="">
+                  <span class="d-block text-primary fw-semibold mb-2 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-2">There are many variations of passages of Lorem Ipsum</p>
+                  <button class="font-10 mb-2 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                    Contest</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div> -->
+        <!-- footer  -->
+        <div class="px-0 ps-xl-3" id="footer"></div>
+    </section>
+
+
+
+    // test 
+$('#side-btn').on("click", () => {
+    $('#side-body').addClass('body-sidebar');
+})
+$('.home-menu-overlay').click(function () {
+    $('#side-body').removeClass('body-sidebar');
+})
+   
+
+     .body-sidebar {
+        overflow: hidden;
+        height: 100vh;
+      }

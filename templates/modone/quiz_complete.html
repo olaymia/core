@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <title>Congratulations</title>
+
+        <link rel="icon" href={% static 'images/favicon.ico' %} />
+        <!-- Icons -->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet" />
+        <!-- CSS -->
+        <link rel="stylesheet" href={% static 'css/gemsnext-compress.min.css' %} />
+        <link rel="stylesheet" type="text/css" href={% static 'css/style.min.css' %} />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    </head>
+
+    <body>
+        <header class="w-100">
+            <nav class="py-3 bg-primary-linear-gradient text-center">
+                <a href class="text-decoration-none text-white">
+                    <img
+                        class="img-fluid w-150 h-24"
+                        src={% static 'images/gemsnext-white-logo.svg' %}
+                        alt />
+                </a>
+            </nav>
+        </header>
+        <!-- Congratulations details section start -->
+        <main>
+            <div class="container">
+                <div class="text-center mt-5">
+                    <img src={% static 'images/trophy.png' %} alt class="mb-4" />
+                    <h1 class="text-primary-linear-gradient fw-bold mb-3">
+                        Congratulations
+                    </h1>
+                    <h4 class="text-body fw-bold mb-56">Successfully Completed</h4>
+                    Number of questions attempted: <span class=""">{{total_attempts_question}}</span>
+                    <svg
+                        class="mb-56"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="250"
+                        height="250"
+                        viewBox="0 0 250 250"
+                        fill="none">
+                        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" font-size="40" fill="#000000">
+                            {{result_percentage}}%
+
+                            <tspan x="50%" dy="1em" text-anchor="middle" font-size="30">{{correct_answers}}/{{total_questions}}</tspan>
+                        </text>
+                        
+                        <path
+                            d="M74.8834 10.4866C48.5384 22.0164 26.9746 42.2775 13.8275 67.8539C0.68045 93.4303 -3.24574 122.758 2.71088 150.891C8.66748 179.025 24.1426 204.245 46.5271 222.299C68.9117 240.352 96.8365 250.135 125.594 249.999L125.505 231.249C101.061 231.365 77.3249 223.049 58.298 207.704C39.2712 192.358 26.1174 170.922 21.0542 147.008C15.9911 123.094 19.3284 98.1657 30.5034 76.4258C41.6784 54.6858 60.0076 37.4639 82.4009 27.6636L74.8834 10.4866Z"
+                            fill="#566A8B" />
+                        <path
+                            d="M78.1504 9.11163C95.1016 2.25885 113.35 -0.791798 131.608 0.174795C149.867 1.14139 167.691 6.10169 183.824 14.7059C199.957 23.3102 214.005 35.3488 224.98 49.9731C235.954 64.5973 243.587 81.451 247.339 99.3458C251.092 117.241 250.873 135.741 246.698 153.542C242.523 171.343 234.494 188.011 223.177 202.372C211.859 216.732 197.53 228.435 181.198 236.655C164.866 244.875 146.929 249.412 128.653 249.947L128.105 231.205C143.64 230.75 158.886 226.894 172.768 219.907C186.65 212.92 198.83 202.972 208.45 190.766C218.07 178.559 224.895 164.391 228.443 149.26C231.992 134.13 232.178 118.404 228.988 103.194C225.799 87.9834 219.311 73.6577 209.983 61.2271C200.655 48.7965 188.713 38.5636 175 31.25C161.287 23.9364 146.137 19.7202 130.617 18.8986C115.097 18.077 99.5864 20.67 85.1778 26.4949L78.1504 9.11163Z"
+                            fill="#89BF48" />
+                    </svg>
+                    Number of questions correct: <span class=""">{{correct_answers}}</span>
+                    <div class="row mb-56 justify-content-center">
+                        <div class="col-md-3">
+                            <button class="btn btn-primary  mb-2 w-100">
+                                View Your Report
+                            </button>
+                        </div>
+                        <div class="col-md-3">
+                            <a href="{% url 'dashboard' %}"><button
+                                    class="btn btn-primary-outline mb-2 w-100">
+                                    Go Back to Dashboard
+                                </button></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Congratulations details section start -->
+    </body>
+</html>

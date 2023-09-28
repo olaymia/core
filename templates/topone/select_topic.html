@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Topic</title>
+
+  <link rel="icon" href="{% static 'images/favicon.ico' %}" />
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+  <header class="position-fixed w-100 z-index-100 top-0">
+    <nav class="py-3 bg-primary-linear-gradient text-center">
+      <a href="" class="text-decoration-none text-white">
+        <img class="img-fluid w-150 h-24" src="{% static 'images/gemsnext-white-logo.svg' %}" alt="" />
+      </a>
+    </nav>
+  </header>
+  <!-- choose topic sections start -->
+  <main class="bg-pink-x">
+    <div class="d-flex align-items-center justify-content-center flex-column mt-104">
+      <div class="container">
+        <div class="text-center mb-64">
+          <h1>
+            Choose the
+            <span class="text-primary-linear-gradient">Topic</span>
+            you want to attempt
+          </h1>
+        </div>
+
+        <!-- options start -->
+
+          <div class="row mb-5">
+              {% for topic in topics %}
+            <div class="col-md-6 col-lg-4 mb-3">
+            <a href="{% url 'select_topic_quantity' topic.id %}">  <button class="btn btn-primary w-100 h-100 font-18 fw-bold">
+                {{topic.name}}
+              </button></a>
+            </div>
+              {% endfor %}
+
+
+
+
+        <!-- options end -->
+      </div>
+    </div>
+
+  </main>
+  <!-- choose topic sections end -->
+</body>
+
+</html>

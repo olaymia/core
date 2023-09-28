@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title> Dashboard </title>
+
+  <link rel="icon" href="{% static 'images/favicon.ico' %}">
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+  <header class="position-fixed w-100 z-index-100 top-0">
+    <nav class="p-3 bg-primary-linear-gradient text-center position-relative">
+      <button class="d-xl-none btn header-res-humburger p-0 me-4 menu-line position-absolute">
+        <img src="{% static 'images/menu-line-white.svg' %}" alt="Image">
+      </button>
+      <a href="" class="text-decoration-none text-white">
+        <img class="img-fluid w-150 h-24" src="{% static 'images/gemsnext-white-logo.svg' %}" alt="Image">
+    </a>
+    </nav>
+  </header>
+
+  <main class="dashbord bg-grey">
+    <div class="bg-menu-overlay"> </div>
+
+    <div class="mt-5">
+      <div class="d-lg-flex">
+
+        <!-- left sidebar  -->
+        <div class="left-sidebar">
+          <aside class="bg-white vh-100 box-shadow position-sticky left-side-menu">
+            <div class="user-info text-center mb-xl-5 mb-3">
+              <img src="{% static 'images/user.jpg' %}" alt="user-img" class="user-info-img img-fluid py-4 px-3" />
+                {% if user.is_authenticated %}
+              <h4 class="font-20 text-secondary d-block fw-semibold font-family-urbanist">Welcom {{user.first_name}}  </h4>
+                <p class="text-body font-14">@{{user.username}}</p>
+              {% endif %}
+
+
+
+
+            </div>
+
+
+            <ul class="sidebar-links list-unstyled px-3">
+              <li class="mb-3"><a href="{% url 'dashboard' %}" class="text-decoration-none font-14 text-dark font-family-mulish fw-bold"><img
+                    src="{% static 'images/dashboard.svg' %}" alt="dashboard" class="h-14 w-12 me-2 ">Dashboard</a></li>
+              <li class="mb-3"><a href="#" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/analytics.svg' %}" alt="analytics" class="h-14 w-12 me-2 ">Analytics</a></li>
+              <li class="mb-3"><a href="{% url 'profile' %}" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/profile.svg' %}" alt="profile" class="h-14 w-12 me-2 ">Profile</a></li>
+              <li class="mb-3"><a href="#" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/community.svg' %}" alt="community" class="h-14 w-12 me-2 ">Community</a></li>
+              <li class="mb-3"><a href="#" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/help-centre.svg' %}" alt="help-centre" class="h-14 w-12 me-2 ">Help Centre</a></li>
+              <li class="mb-3"><a href="#" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/lead-board.svg' %}" alt="lead-board" class="h-14 w-12 me-2">Lead Board</a></li>
+              <li class="mb-3"><a href="{% url 'logout' %}" class="text-decoration-none text-dark font-family-mulish"><img
+                    src="{% static 'images/logout.svg' %}" alt="logout" class="h-14 w-12 me-2">Logout</a></li>
+            </ul>
+
+          </aside>
+
+        </div>
+
+        <div class="pt-120 sections-part">
+
+           <!-- self assessment section start  -->
+           <div class="center-part section-padding-80 pt-0">
+            <div class="self-assessment">
+              <div class="overflow-hidden position-relative self-assessment-head box-shadow p-3 text-center border-radius-8 pb-158">
+                  <img class="position-absolute self-section-cross-bg-img end-0 w-36-pr" src="{% static 'images/x-img.svg' %}" alt="">
+                <h4 class="text-gradient-color my-3 h1 font-weight-bolder">PRE, PARA & CLINICAL - ASSESSMENT</h4>
+                <p class="text-secondary px-2 px-md-5 font-16 font-family-mulish op-08 mb-40">There are many
+                  variations of
+                  passages
+                  of
+                  Lorem Ipsum. available, but the majority. Variations of passages of Lorem Ipsum. available, but the
+                  majority</p>
+              </div>
+              <div class="row mx-0 mt-170 mb-56 px-2">
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-white-smoke box-shadow h-100 border-0">
+                    <div class="card-body text-start">
+                      <h5 class="card-title fw-bold text-secondary">PRE-CLINICAL</h5>
+                      <!-- <div class="card-body-head d-flex align-items-center justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Pre-Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-primary border-radius-50 p-2 d-inline-block"><img
+                            src="{%  static 'images/clinical-icon.svg' %}" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div> -->
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer align-items-center d-flex justify-content-between flex-wrap">
+                        <a href="#" class="text-decoration-none me-2 mb-1 border-0 bg-transparent text-body font-12 primary-hover">Upgrade
+                          plan</a>
+                        <a href="{% url 'pre_options' %}" class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-silver-phoneix box-shadow h-100 border-0">
+                    <div class="card-body text-start">
+                      <h5 class="card-title w-bold text-purple">PARA-CLINICAL</h5>
+                      <!-- <div class="card-body-head d-flex justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Para-Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-primary border-radius-50 p-2 d-inline-block"><img
+                            src="./assets/images/clinical-icon.svg" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div> -->
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer text-decoration-none d-flex align-items-center justify-content-between flex-wrap">
+                        <a href="#" class="text-decoration-none me-2 mb-1  border-0 bg-transparent text-body font-12 primary-hover">Upgrade
+                          plan</a>
+                        <a href="{% url 'repo' %}" class="btn btn-primary-outline fw-normal  py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-soft-silver box-shadow h-100 border-0">
+                    <div class="card-body text-start">
+                      <h5 class="card-title fw-bold text-green">CLINICAL</h5>
+                      <!-- <div class="card-body-head d-flex justify-content-between flex-wrap">
+                        <span class="card-title text-secondary font-18 mr-12 fw-bold">Clinical <span
+                            class="font-12">/3 months</span></span>
+                        <span class="border-primary border-radius-50 p-2 d-inline-block"><img
+                            src="./assets/images/clinical-icon.svg" alt="clinical-icon"
+                            class="h-24 w-22 mb-1 ms-1"></span>
+                      </div> -->
+                      <ul class="ps-3 mt-3">
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                        <li>Lorem Ipsum</li>
+                      </ul>
+                      <div class="card-body-footer align-items-center d-flex justify-content-between flex-wrap">
+                        <a href="#" class="text-decoration-none mb-1 border-0 bg-transparent text-body font-12 primary-hover me-2">Upgrade
+                          plan</a>
+                        <a href="{% url 'repo' %}" class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- self assessment section end  -->
+
+          <!-- grand next mock test section start -->
+          <div class="center-part section-padding-80 pt-0">
+            <div class="mock-test">
+              <div class="overflow-hidden position-relative box-shadow p-3 text-center border-radius-8 pb-158">
+                  <img class="position-absolute self-section-cross-bg-img end-0 w-36-pr" src="{%  static 'images/x-img.svg' %}" alt="">
+                <!-- <h1 class="text-primary-linear-gradient my-3">Grand NExT Mock Test</h1> -->
+                <img class="w-90pr img-fluid mb-3" src="{%  static 'images/grand-img.png' %}" alt="Image">
+                <p class="text-body px-2 px-md-5 font-16 font-family-mulish  mb-40">There are many variations of
+                  passages of
+                  Lorem
+                  Ipsum. available, but the majority. Variations of passages of Lorem Ipsum. available, but the
+                  majority
+                </p>
+              </div>
+              <div class="row mx-0 mt-170 mb-56 px-2">
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-white-smoke box-shadow h-100">
+                    <div class="card-body text-start">
+                      <h5 class="card-title  text-primary fw-bold text-secondary">1 - Day</h5>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <a href="./options.html" class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-silver-phoneix box-shadow h-100">
+                    <div class="card-body text-start">
+                      <h5 class="card-title  text-primary fw-bold text-purple ">2 - Day</h5>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <a href="./options.html" class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                  <div class="card border-radius-8 bg-soft-silver box-shadow h-100">
+                    <div class="card-body text-start ">
+                      <h5 class="card-title  text-primary fw-bold text-green">3 - Day</h5>
+                      <ul class="ps-3 mt-3">
+                        <li>180 Questions</li>
+                        <li>Medicine & Allied Subjects</li>
+                        <li>Pediatrics</li>
+                        <li>270 minutes</li>
+                      </ul>
+                      <div class="text-end">
+                        <a href="./options.html" class="btn btn-primary-outline fw-normal py-2 px-3 border-radius-46-px">Start your
+                          Test</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- grand next mock test section end -->
+
+          <!-- <div class="center-part section-padding-80 pt-0">
+            <div class="round-chart  mx-0 row mb-56 p-2 p-sm-4">
+              <div class="left-side col-md-6 text-center mb-3 mb-md-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+                  <path
+                    d="M74.8834 10.4866C48.5384 22.0164 26.9746 42.2775 13.8275 67.8539C0.68045 93.4303 -3.24574 122.758 2.71088 150.891C8.66748 179.025 24.1426 204.245 46.5271 222.299C68.9117 240.352 96.8365 250.135 125.594 249.999L125.505 231.249C101.061 231.365 77.3249 223.049 58.298 207.704C39.2712 192.358 26.1174 170.922 21.0542 147.008C15.9911 123.094 19.3284 98.1657 30.5034 76.4258C41.6784 54.6858 60.0076 37.4639 82.4009 27.6636L74.8834 10.4866Z"
+                    fill="#566A8B" />
+                  <path
+                    d="M78.1504 9.11163C95.1016 2.25885 113.35 -0.791798 131.608 0.174795C149.867 1.14139 167.691 6.10169 183.824 14.7059C199.957 23.3102 214.005 35.3488 224.98 49.9731C235.954 64.5973 243.587 81.451 247.339 99.3458C251.092 117.241 250.873 135.741 246.698 153.542C242.523 171.343 234.494 188.011 223.177 202.372C211.859 216.732 197.53 228.435 181.198 236.655C164.866 244.875 146.929 249.412 128.653 249.947L128.105 231.205C143.64 230.75 158.886 226.894 172.768 219.907C186.65 212.92 198.83 202.972 208.45 190.766C218.07 178.559 224.895 164.391 228.443 149.26C231.992 134.13 232.178 118.404 228.988 103.194C225.799 87.9834 219.311 73.6577 209.983 61.2271C200.655 48.7965 188.713 38.5636 175 31.25C161.287 23.9364 146.137 19.7202 130.617 18.8986C115.097 18.077 99.5864 20.67 85.1778 26.4949L78.1504 9.11163Z"
+                    fill="#89BF48" />
+                </svg>
+
+
+              </div>
+              <div class="right-side col-md-6 text-center">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="250" height="250" viewBox="0 0 250 250" fill="none">
+                  <path
+                    d="M74.8834 10.4866C48.5384 22.0164 26.9746 42.2775 13.8275 67.8539C0.68045 93.4303 -3.24574 122.758 2.71088 150.891C8.66748 179.025 24.1426 204.245 46.5271 222.299C68.9117 240.352 96.8365 250.135 125.594 249.999L125.505 231.249C101.061 231.365 77.3249 223.049 58.298 207.704C39.2712 192.358 26.1174 170.922 21.0542 147.008C15.9911 123.094 19.3284 98.1657 30.5034 76.4258C41.6784 54.6858 60.0076 37.4639 82.4009 27.6636L74.8834 10.4866Z"
+                    fill="#566A8B" />
+                  <path
+                    d="M78.1504 9.11163C95.1016 2.25885 113.35 -0.791798 131.608 0.174795C149.867 1.14139 167.691 6.10169 183.824 14.7059C199.957 23.3102 214.005 35.3488 224.98 49.9731C235.954 64.5973 243.587 81.451 247.339 99.3458C251.092 117.241 250.873 135.741 246.698 153.542C242.523 171.343 234.494 188.011 223.177 202.372C211.859 216.732 197.53 228.435 181.198 236.655C164.866 244.875 146.929 249.412 128.653 249.947L128.105 231.205C143.64 230.75 158.886 226.894 172.768 219.907C186.65 212.92 198.83 202.972 208.45 190.766C218.07 178.559 224.895 164.391 228.443 149.26C231.992 134.13 232.178 118.404 228.988 103.194C225.799 87.9834 219.311 73.6577 209.983 61.2271C200.655 48.7965 188.713 38.5636 175 31.25C161.287 23.9364 146.137 19.7202 130.617 18.8986C115.097 18.077 99.5864 20.67 85.1778 26.4949L78.1504 9.11163Z"
+                    fill="#89BF48" />
+                </svg>
+
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="center-part">
+            <div class="perfomance-progress mb-80 ">
+              <div class="row">
+                <div class="col-md-6 mb-3 mb-md-0">
+                  <div class="topic-progress bg-white border-radius-8 box-shadow card h-100">
+                    <div class="card-body text-center p-20">
+                      <span
+                        class="position-relative after-black-line font-20 font-family-urbanist text-secondary font-weight-semibold d-inline-block mb-4 pb-1">TOPIC
+                        PROGRESS</span>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress border-radius-46-px bg-purple-light w-100 h-10" role="progressbar"
+                          aria-label="Basic example 6px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20 ">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center mb-20">
+                        <p class="font-16 mb-0 mr-20">Anatomy</p>
+                        <div class="progress w-100 border-radius-46-px bg-purple-light h-10" role="progressbar"
+                          aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                          <div class="progress-bar bg-purple" style="width: 25%"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="performance bg-white border-radius-8 box-shadow card h-100">
+                    <div class="card-body text-center">
+                      <span
+                        class="position-relative after-black-line font-20 font-family-urbanist text-secondary font-weight-semibold d-inline-block mb-4 pb-1">PERFORMANCE</span>
+                      <svg version="1.1" class="w-100 h-auto" style="font-family: Roboto; font-size: 12px;"
+                        xmlns="http://www.w3.org/2000/svg" width="650" height="400" viewBox="0 0 650 400"
+                        aria-hidden="false" aria-label="Interactive chart">
+                        <defs aria-hidden="true">
+                          <clipPath>
+                            <rect x="0" y="0" width="598" height="282" fill="none"></rect>
+                          </clipPath>
+                          <clipPath>
+                            <rect x="0" y="0" width="598" height="282" fill="none"></rect>
+                          </clipPath>
+                        </defs>
+                        <rect fill="#ffffff" x="0" y="0" width="650" height="400" rx="0" ry="0" aria-hidden="true">
+                        </rect>
+                        <rect fill="none" x="42" y="45" width="598" height="282" aria-hidden="true"></rect>
+                        <g data-z-index="0" aria-hidden="true"></g>
+                        <rect fill="none" data-z-index="1" x="42" y="45" width="598" height="282" aria-hidden="true">
+                        </rect>
+                        <g data-z-index="1" aria-hidden="true">
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 141.5 45 L 141.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 240.5 45 L 240.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 340.5 45 L 340.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 440.5 45 L 440.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 539.5 45 L 539.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 639.5 45 L 639.5 327"
+                            opacity="1"></path>
+                          <path fill="none" stroke-dasharray="none" data-z-index="1" d="M 41.5 45 L 41.5 327"
+                            opacity="1"></path>
+                          </path>
+                        </g>
+                        <g data-z-index="1" aria-hidden="true">
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 327.5 L 640 327.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 44.5 L 640 44.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 257.5 L 640 257.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 186.5 L 640 186.5" opacity="1"></path>
+                          <path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1"
+                            d="M 42 116.5 L 640 116.5" opacity="1"></path>
+                        </g>
+                        <g data-z-index="2" aria-hidden="true">
+                          <path fill="none" stroke="#ccd6eb" stroke-width="1" data-z-index="7"
+                            d="M 42 327.5 L 640 327.5">
+                          </path>
+                        </g>
+                        <g data-z-index="2" aria-hidden="true">
+                          <path fill="none" data-z-index="7" d="M 42 45 L 42 327"></path>
+                        </g>
+                        <g data-z-index="3" aria-hidden="false">
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)"
+                            clip-path="url(#highcharts-1it3igm-8-)" aria-hidden="true">
+                            <path fill="none"
+                              d="M 49.833333333333 160.74 C 49.833333333333 160.74 109.63333333333321 124.08000000000001 149.5 124.08000000000001 C 189.366666666664 124.08000000000001 209.299999999996 143.82 249.16666666666 143.82 C 289.033333333328 143.82 308.96666666666204 14.100000000000023 348.83333333333 14.100000000000023 C 388.699999999998 14.100000000000023 408.633333333332 14.100000000000023 448.5 53.58000000000001 C 488.36666666666406 93.06 548.16666666666 217.14 548.16666666666 217.14"
+                              data-z-index="1" stroke="#6f58e9" stroke-width="2" stroke-linejoin="round"
+                              stroke-linecap="round"></path>
+                            <path fill="none"
+                              d="M 49.833333333333 160.74 C 49.833333333333 160.74 109.63333333333321 124.08000000000001 149.5 124.08000000000001 C 189.366666666664 124.08000000000001 209.299999999996 143.82 249.16666666666 143.82 C 289.033333333328 143.82 308.96666666666204 14.100000000000023 348.83333333333 14.100000000000023 C 388.699999999998 14.100000000000023 408.633333333332 14.100000000000023 448.5 53.58000000000001 C 488.36666666666406 93.06 548.16666666666 217.14 548.16666666666 217.14"
+                              data-z-index="2" stroke-linecap="round" stroke-linejoin="round"
+                              stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none"
+                            style="cursor: pointer; outline: none;" aria-hidden="false" role="region" tabindex="-1"
+                            aria-label="Item 1, line 1 of 2 with 6 data points.">
+                            <path fill="#6f58e9" d="M 149 124.08000000000001 A 0 0 0 1 1 149 124.08000000000001 Z"
+                              data-z-index="-1" fill-opacity="0.25" visibility="hidden"></path>
+                            <path fill="#6f58e9" d="M 49 164.74 A 4 4 0 1 1 49.00399999933334 164.73999800000018 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 1, 43. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9" d="M 149 128.08 A 4 4 0 1 1 149.00399999933333 128.0799980000002 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 2, 56. Item 1."
+                              style="outline: none;" stroke-width="0.0025244915093498577"></path>
+                            <path fill="#6f58e9" d="M 249 147.82 A 4 4 0 1 1 249.00399999933333 147.81999800000017 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 3, 49. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9"
+                              d="M 348 18.100000000000023 A 4 4 0 1 1 348.00399999933336 18.09999800000019 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 4, 95. Item 1."
+                              style="outline: none;"></path>
+                            <path fill="#6f58e9"
+                              d="M 448 57.58000000000001 A 4 4 0 1 1 448.00399999933336 57.57999800000018 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 5, 81. Item 1." style="outline: none;">
+                            </path>
+                            <path fill="#6f58e9" d="M 548 221.14 A 4 4 0 1 1 548.0039999993334 221.13999800000016 Z"
+                              opacity="1" tabindex="-1" role="img" aria-label="Category 6, 23. Item 1."
+                              style="outline: none;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)"
+                            clip-path="url(#highcharts-1it3igm-8-)" aria-hidden="true">
+                            <path fill="none"
+                              d="M 49.833333333333 248.16 C 49.833333333333 248.16 109.63333333333321 248.16 149.5 236.88 C 189.366666666664 225.6 209.299999999996 205.859999999999 249.16666666666 186.12 C 289.033333333328 166.37999999999903 308.96666666666204 149.46 348.83333333333 138.18 C 388.699999999998 126.9 408.633333333332 126.9 448.5 126.9 C 488.36666666666406 126.9 548.16666666666 149.46 548.16666666666 149.46"
+                              data-z-index="1" stroke="#94d13d" stroke-width="2" stroke-linejoin="round"
+                              stroke-linecap="round"></path>
+                            <path fill="none"
+                              d="M 49.833333333333 248.16 C 49.833333333333 248.16 109.63333333333321 248.16 149.5 236.88 C 189.366666666664 225.6 209.299999999996 205.859999999999 249.16666666666 186.12 C 289.033333333328 166.37999999999903 308.96666666666204 149.46 348.83333333333 138.18 C 388.699999999998 126.9 408.633333333332 126.9 448.5 126.9 C 488.36666666666406 126.9 548.16666666666 149.46 548.16666666666 149.46"
+                              data-z-index="2" stroke-linecap="round" stroke-linejoin="round"
+                              stroke="rgba(192,192,192,0.0001)" stroke-width="22" style="cursor: pointer;"></path>
+                          </g>
+                          <g data-z-index="0.1" opacity="1" transform="translate(42,45) scale(1 1)" clip-path="none"
+                            style="cursor: pointer; outline: none;" aria-hidden="false" role="region" tabindex="-1"
+                            aria-label="Item 2, line 2 of 2 with 6 data points.">
+                            <path fill="#94d13d" d="M 249 186.12 A 0 0 0 1 1 249 186.12 Z" data-z-index="-1"
+                              fill-opacity="0.25" visibility="hidden"></path>
+                            <path fill="#94d13d" d="M 49 244.16 L 53 248.16 L 49 252.16 L 45 248.16 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 1, 12. Item 2." style="outline: none;"
+                              stroke-width="0.00003943894778490886"></path>
+                            <path fill="#94d13d" d="M 149 232.88 L 153 236.88 L 149 240.88 L 145 236.88 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 2, 16. Item 2." style="outline: none;"
+                              stroke-width="0.000009869571931497845"></path>
+                            <path fill="#94d13d" d="M 249 182.12 L 253 186.12 L 249 190.12 L 245 186.12 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 3, 34. Item 2." style="outline: none;"
+                              stroke-width="0.0025244915093498577"></path>
+                            <path fill="#94d13d" d="M 348 134.18 L 352 138.18 L 348 142.18 L 344 138.18 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 4, 51. Item 2." style="outline: none;">
+                            </path>
+                            <path fill="#94d13d" d="M 448 122.9 L 452 126.9 L 448 130.9 L 444 126.9 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 5, 55. Item 2." style="outline: none;">
+                            </path>
+                            <path fill="#94d13d" d="M 548 145.46 L 552 149.46 L 548 153.46 L 544 149.46 Z" opacity="1"
+                              tabindex="-1" role="img" aria-label="Category 6, 47. Item 2." style="outline: none;">
+                            </path>
+                          </g>
+                        </g>
+                        <g data-z-index="3" aria-hidden="true">
+                          <g stroke-linecap="round" style="cursor: pointer;" transform="translate(616,10)">
+                            <title>Chart context menu</title>
+                            <rect fill="#ffffff" x="0.5" y="0.5" width="24" height="22" rx="2" ry="2" stroke="none"
+                              stroke-width="1"></rect>
+                            <path fill="#666666" d="M 6 6.5 L 20 6.5 M 6 11.5 L 20 11.5 M 6 16.5 L 20 16.5"
+                              data-z-index="1" stroke="#666666" stroke-width="3"></path><text
+                              font-family='Roboto-Regular,Roboto' x="0" data-z-index="1" y="15.5"
+                              style="color: rgb(51, 51, 51); font-weight: normal; fill: rgb(51, 51, 51);"></text>
+                          </g>
+                        </g><text font-family='Roboto-Regular,Roboto' x="325" text-anchor="middle" data-z-index="4"
+                          style="color: rgb(51, 51, 51); font-size: 18px; fill: rgb(51, 51, 51);" y="24"
+                          aria-hidden="true">Chart title</text><text font-family='Roboto-Regular,Roboto' x="325"
+                          text-anchor="middle" data-z-index="4"
+                          style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="44"
+                          aria-hidden="true"></text><text font-family='Roboto-Regular,Roboto' x="10" text-anchor="start"
+                          data-z-index="4" style="color: rgb(102, 102, 102); fill: rgb(102, 102, 102);" y="397"
+                          aria-hidden="true"></text>
+                        <g data-z-index="7" aria-hidden="true" transform="translate(252,359)">
+                          <rect fill="none" rx="0" ry="0" x="0" y="0" width="145" height="26"></rect>
+                          <g data-z-index="1">
+                            <g>
+                              <g data-z-index="1" transform="translate(8,3)">
+                                <path fill="none" d="M 0 11 L 16 11" stroke="#6f58e9" stroke-width="2"></path>
+                                <path fill="#6f58e9" d="M 8 15 A 4 4 0 1 1 8.003999999333336 14.999998000000167 Z"
+                                  opacity="1"></path><text font-family='Roboto-Regular,Roboto' x="21"
+                                  text-anchor="start" data-z-index="2" y="15"
+                                  style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);">Item
+                                  1</text>
+                              </g>
+                              <g data-z-index="1" transform="translate(82.79999923706055,3)">
+                                <path fill="none" d="M 0 11 L 16 11" stroke="#94d13d" stroke-width="2"></path>
+                                <path fill="#94d13d" d="M 8 7 L 12 11 L 8 15 L 4 11 Z" opacity="1"></path><text
+                                  font-family='Roboto-Regular,Roboto' x="21" y="15" text-anchor="start" data-z-index="2"
+                                  style="color: rgb(51, 51, 51); cursor: pointer; font-size: 12px; font-weight: bold; fill: rgb(51, 51, 51);">Item
+                                  2</text>
+                              </g>
+                            </g>
+                          </g>
+                        </g>
+                        <g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto'
+                            x="91.83333333333667" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 1</text><text font-family='Roboto-Regular,Roboto'
+                            x="191.49999999999665" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 2</text><text font-family='Roboto-Regular,Roboto'
+                            x="291.1666666666667" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 3</text><text font-family='Roboto-Regular,Roboto'
+                            x="390.83333333332666" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 4</text><text font-family='Roboto-Regular,Roboto'
+                            x="490.49999999999665" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 5</text><text font-family='Roboto-Regular,Roboto'
+                            x="590.1666666666666" text-anchor="middle" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="346" opacity="1">Category 6</text></g>
+                        <g data-z-index="7" aria-hidden="true"><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="332" opacity="1">0</text><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);"
+                            y="50" opacity="1">100</text><text font-family='Roboto-Regular,Roboto' x="27"
+                            text-anchor="end" transform="translate(0,0)" y="262" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">25</text><text
+                            font-family='Roboto-Regular,Roboto' x="27" text-anchor="end" transform="translate(0,0)"
+                            y="191" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">50</text><text
+                            font-family='Roboto-Regular,Roboto' x="27" text-anchor="end" transform="translate(0,0)"
+                            y="121" opacity="1"
+                            style="color: rgb(102, 102, 102); cursor: default; font-size: 11px; fill: rgb(102, 102, 102);">75</text>
+                        </g>
+                      </svg>
+                      <p class="font-14 mb-0"> Your productivity is <span class="text-primary">40%</span> higher
+                        compared to last month</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 text-center mt-56">
+                  <button class="btn btn-primary w-170">View Your Report</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+
+
+          <!-- guest lectures section start  -->
+          <div class="bg-light-pink-liner-gradient">
+            <div class="center-part">
+              <div class="guest-lectures section-padding-80">
+                <div class="row">
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="guest-lectures-left h-100 d-flex flex-column">
+                      <div class="guest-lectures-left-heading text-center">
+                        <h5 class="font-20 fw-semibold mb-3 after-black-line pb-2 position-relative d-inline-block">
+                          GUEST-LECTURES</h5>
+                      </div>
+                      <div class="card flex-grow-1 box-shadow border-0">
+                        <div class="card-body  border-radius-8 nav-owl-none">
+                          <div class="owl-carousel owl-theme guest-lectures-carousel">
+                            <div class="item">
+                              <div class="guest-lectures-left-img">
+                                <img src="{%  static 'images/user.jpg' %}" alt="doctor" class="border-radius-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                  fill="none">
+                                  <g filter="url(#filter0_b_191_3733)">
+                                    <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                    <path
+                                      d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                      fill="url(#paint0_linear_191_3733)" />
+                                    <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                      stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                  </g>
+                                  <defs>
+                                    <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                      height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                      <feComposite in2="SourceAlpha" operator="in"
+                                        result="effect1_backgroundBlur_191_3733" />
+                                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                        result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                      y2="22.8233" gradientUnits="userSpaceOnUse">
+                                      <stop stop-color="#7400B8" />
+                                      <stop offset="0.789583" stop-color="#FF00FF" />
+                                    </linearGradient>
+                                  </defs>
+                                </svg>
+                              </div>
+                              <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                              <p class="text-body font-12 mb-0">Surgeon</p>
+                            </div>
+                            <div class="item">
+                              <div class="guest-lectures-left-img">
+                                <img src="{%  static 'images/user.jpg' %}" alt="doctor" class="border-radius-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                  fill="none">
+                                  <g filter="url(#filter0_b_191_3733)">
+                                    <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                    <path
+                                      d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                      fill="url(#paint0_linear_191_3733)" />
+                                    <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                      stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                  </g>
+                                  <defs>
+                                    <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                      height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                      <feComposite in2="SourceAlpha" operator="in"
+                                        result="effect1_backgroundBlur_191_3733" />
+                                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                        result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                      y2="22.8233" gradientUnits="userSpaceOnUse">
+                                      <stop stop-color="#7400B8" />
+                                      <stop offset="0.789583" stop-color="#FF00FF" />
+                                    </linearGradient>
+                                  </defs>
+                                </svg>
+                              </div>
+
+                              <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                              <p class="text-body font-12 mb-0">Surgeon</p>
+                            </div>
+                            <div class="item">
+                              <div class="guest-lectures-left-img">
+                                <img src="{%  static 'images/user.jpg' %}" alt="doctor" class="border-radius-8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44"
+                                  fill="none">
+                                  <g filter="url(#filter0_b_191_3733)">
+                                    <rect x="5" y="5" width="34" height="34" rx="17" fill="white" />
+                                    <path
+                                      d="M17.75 16.9224C17.75 16.362 18.37 16.0235 18.8414 16.3266L26.7398 21.4042C27.1735 21.683 27.1735 22.317 26.7398 22.5958L18.8414 27.6734C18.37 27.9764 17.75 27.638 17.75 27.0776V16.9224Z"
+                                      fill="url(#paint0_linear_191_3733)" />
+                                    <rect x="2.52083" y="2.52083" width="38.9583" height="38.9583" rx="19.4792"
+                                      stroke="white" stroke-opacity="0.5" stroke-width="4.95833" />
+                                  </g>
+                                  <defs>
+                                    <filter id="filter0_b_191_3733" x="-2.79134" y="-2.79134" width="49.5827"
+                                      height="49.5827" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                      <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.41667" />
+                                      <feComposite in2="SourceAlpha" operator="in"
+                                        result="effect1_backgroundBlur_191_3733" />
+                                      <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_191_3733"
+                                        result="shape" />
+                                    </filter>
+                                    <linearGradient id="paint0_linear_191_3733" x1="17.75" y1="23.5353" x2="31.6152"
+                                      y2="22.8233" gradientUnits="userSpaceOnUse">
+                                      <stop stop-color="#7400B8" />
+                                      <stop offset="0.789583" stop-color="#FF00FF" />
+                                    </linearGradient>
+                                  </defs>
+                                </svg>
+                              </div>
+
+                              <h6 class="text-secondary font-14 my-2">Dr Shreya Malhotra</h6>
+                              <p class="text-body font-12 mb-0">Surgeon</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="guest-lectures-right h-100 d-flex flex-column">
+                      <div class="guest-lectures-left-heading text-center">
+                        <h5 class="font-20 fw-semibold mb-3 after-black-line pb-2 position-relative d-inline-block">
+                          RECOMMENDED TEST SERIES
+                        </h5>
+                      </div>
+                      <div class="card flex-grow-1 box-shadow border-0">
+                        <div class="card-body ">
+                          <div class="guest-lectures-right-head d-md-flex justify-content-between mb-4">
+                            <img src="{%  static 'images/doctor.png' %}" alt="doctor" width="72px" height="72px" />
+                            <div class="text-start text-md-end mt-3 mt-md-0">
+                              <h6 class="text-primary font-20 fw-semibold">Dr. Bhavya Jad</h6>
+                              <p class="mb-0 font-14 ps-0 ps-md-5">MD/MS Ophthalmology, DNB Ophthalmology
+                                Batra Hospital and Fortis Escorts Hospital</p>
+                            </div>
+                          </div>
+                          <div class="owl-carousel recommended-carousel owl-theme px-2">
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                            <a href="#" class="text-decoration-none item d-flex align-items-center flex-column justify-content-center text-center recommended-content">
+                              <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="35" height="40" fill="#394E63" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                              viewBox="0 0 29.3 32.76"
+                               xmlns:xlink="http://www.w3.org/1999/xlink">
+                               <g id="Layer_x0020_1">
+                                <metadata id="CorelCorpID_0Corel-Layer"/>
+                                <g id="_2083819149264">
+                                 <g>
+                                  <path class="fil0" d="M28.81 0.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.26l0 -28.76 0.99 0 0 28.76 -0.49 0.5 -0.5 -0.5zm0.99 0l0 0.5 -0.49 0 0.49 -0.5zm-3.58 -0.49l3.09 0 0 0.99 -3.09 0 -0.5 -0.5 0.5 -0.49zm0 0.99l-0.5 0 0 -0.5 0.5 0.5zm0.49 -26.26l0 25.76 -0.99 0 0 -25.76 0.5 -0.5 0.49 0.5zm-0.49 -0.5l0.49 0 0 0.5 -0.49 -0.5zm-22.13 0l22.13 0 0 1 -22.13 0 -0.5 -0.5 0.5 -0.5zm0 1l-0.5 0 0 -0.5 0.5 0.5zm0.49 -3.5l0 3 -0.99 0 0 -3 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <path class="fil0" d="M25.72 3.99l-25.22 0 0 -0.99 25.22 0 0.49 0.5 -0.49 0.49zm0 -0.99l0.49 0 0 0.5 -0.49 -0.5zm-0.5 29.27l0 -28.77 0.99 0 0 28.77 -0.49 0.49 -0.5 -0.49zm0.99 0l0 0.49 -0.49 0 0.49 -0.49zm-25.71 -0.5l25.22 0 0 0.99 -25.22 0 -0.5 -0.49 0.5 -0.5zm0 0.99l-0.5 0 0 -0.49 0.5 0.49zm0.49 -29.26l0 28.77 -0.99 0 0 -28.77 0.5 -0.5 0.49 0.5zm-0.99 0l0 -0.5 0.5 0 -0.5 0.5z"/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,8.57 3.78,8.57 3.78,7.58 22.43,7.58 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,12.5 3.78,12.5 3.78,11.5 22.43,11.5 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,16.42 3.78,16.42 3.78,15.42 22.43,15.42 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,20.34 3.78,20.34 3.78,19.35 22.43,19.35 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,24.26 3.78,24.26 3.78,23.27 22.43,23.27 "/>
+                                 </g>
+                                 <g>
+                                  <polygon class="fil0" points="22.43,28.18 3.78,28.18 3.78,27.19 22.43,27.19 "/>
+                                 </g>
+                                </g>
+                               </g>
+                              </svg>
+
+                              <h6 class="font-20 mb-2 recommended-title">Anatomy</h6>
+                              <span class="font-14 recommended-description">Test1<span class="d-block">20 Questions</span></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- guest lectures section end  -->
+
+          <!-- refer earn section start  -->
+          <div class=" ">
+
+            <div class="center-part position-relative bg-primary-linear-gradient border-radius-8">
+              <svg xmlns="http://www.w3.org/2000/svg" class="position-absolute top-0 start-0" width="200" height="207"
+              viewBox="0 0 373 207" fill="none">
+              <path d="M-20.2539 19.8382H64.2586L60.5597 14.1928H-24.2039L-20.2539 19.8382Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M-39 247H42.3467L46.0772 241.386H-34.9873L-39 247Z" fill="white" fill-opacity="0.15" />
+              <path d="M6.3913 57.6935H89.274L85.5752 52.0795H2.44159L6.3913 57.6935Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M142.282 114.492L146.232 108.878H42.4096L46.3593 114.492H142.282Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M-6.93121 38.7501H76.7664L73.0673 33.1362H-10.8811L-6.93121 38.7501Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M51.751 0.895233L48.0521 -4.71872H-37.5264L-33.5767 0.895233H51.751Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M-25.4893 228.057H54.9172L58.6161 222.443H-21.5079L-25.4893 228.057Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M-12.0097 209.145H67.4562L71.1865 203.531H-7.99716L-12.0097 209.145Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M1.50106 190.202H80.0264L83.7255 184.588H5.51358L1.50106 190.202Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M147.33 133.404L143.411 127.79H46.0458L42.0021 133.404H147.33Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M209.021 222.443H125.386L129.023 228.057H212.908L209.021 222.443Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M160.433 152.347L156.546 146.733H32.5351L28.5226 152.347H160.433Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M159.586 89.9344H29.0868L33.0368 95.5483H155.637L159.586 89.9344Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M15.0118 171.29H173.567V171.259L169.649 165.676H19.0243L15.0118 171.259V171.29Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M186.263 52.0795H108.772L104.916 57.6935H182.282L186.263 52.0795Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M172.94 70.9914H15.7643L19.714 76.6054H168.959L172.94 70.9914Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M182.783 184.588H100.841L104.509 190.202H186.671L182.783 184.588Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M199.586 33.1362H121.844L117.957 38.7501H195.636L199.586 33.1362Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M195.918 203.531H113.13L116.766 209.145H199.805L195.918 203.531Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M170.276 -36.9601H248.989L252.939 -42.6054H174.132L170.276 -36.9601Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M222.563 -112.702H302.343L306.293 -118.316H226.419L222.563 -112.702Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M157.204 -18.0481H235.667L239.616 -23.662H161.06L157.204 -18.0481Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M137.643 241.386L141.279 247H226.043L222.156 241.386H137.643Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M373 -213H291.779L287.923 -207.355H369.05L373 -213Z" fill="white" fill-opacity="0.15" />
+              <path d="M359.677 -194.057H278.707L274.82 -188.411H355.696L359.677 -194.057Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M183.348 -55.903H262.343L266.293 -61.5169H187.235L183.348 -55.903Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M209.46 -93.7583H288.989L292.97 -99.4036H213.378L209.46 -93.7583Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M333.001 -156.202H252.563L248.676 -150.556H329.02L333.001 -156.202Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M346.323 -175.114H265.635L261.748 -169.5H342.373L346.323 -175.114Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M319.646 -137.258H239.491L235.635 -131.613H315.665L319.646 -137.258Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M212.94 14.1928H134.947L131.06 19.8382H208.99L212.94 14.1928Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M196.388 -74.8463H275.666L279.616 -80.4603H200.275L196.388 -74.8463Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M144.132 0.895233H222.313L226.294 -4.71872H147.988L144.132 0.895233Z" fill="white"
+                fill-opacity="0.15" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="position-absolute top-0 end-0" width="250" height="207"
+              viewBox="0 0 348 207" fill="none">
+              <path d="M393.254 204.162H308.741L312.44 209.807H397.204L393.254 204.162Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M412 -23H330.653L326.923 -17.386H407.987L412 -23Z" fill="white" fill-opacity="0.15" />
+              <path d="M366.609 166.307H283.726L287.425 171.921H370.558L366.609 166.307Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M230.718 109.508L226.768 115.122H330.59L326.641 109.508H230.718Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M379.931 185.25H296.234L299.933 190.864H383.881L379.931 185.25Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M321.249 223.105L324.948 228.719H410.526L406.577 223.105H321.249Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M398.489 -4.05673H318.083L314.384 1.55728H394.508L398.489 -4.05673Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M385.01 14.8548H305.544L301.814 20.4688H380.997L385.01 14.8548Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M371.499 33.7982H292.974L289.274 39.4121H367.486L371.499 33.7982Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M225.67 90.5964L229.589 96.2104H326.954L330.998 90.5964H225.67Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M163.979 1.55728H247.614L243.977 -4.05673H160.092L163.979 1.55728Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M212.567 71.6534L216.454 77.2674H340.465L344.477 71.6534H212.567Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M213.414 134.066H343.913L339.963 128.452H217.363L213.414 134.066Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M357.988 52.7101H199.433V52.7415L203.351 58.3241H353.976L357.988 52.7415V52.7101Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M186.737 171.921H264.228L268.084 166.307H190.718L186.737 171.921Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M200.06 153.009H357.236L353.286 147.395H204.041L200.06 153.009Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M190.217 39.4121H272.159L268.491 33.7982H186.329L190.217 39.4121Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M173.414 190.864H251.156L255.043 185.25H177.364L173.414 190.864Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M177.082 20.4688H259.87L256.234 14.8548H173.195L177.082 20.4688Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M202.724 260.96H124.011L120.061 266.605H198.868L202.724 260.96Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M150.437 336.702H70.6574L66.7075 342.316H146.581L150.437 336.702Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M215.796 242.048H137.333L133.384 247.662H211.94L215.796 242.048Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M235.357 -17.386L231.721 -23H146.957L150.844 -17.386H235.357Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M0 437H81.2213L85.077 431.355H3.94971L0 437Z" fill="white" fill-opacity="0.15" />
+              <path d="M13.3228 418.057H94.2932L98.1803 412.411H17.3039L13.3228 418.057Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M189.652 279.903H110.657L106.707 285.517H185.765L189.652 279.903Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M163.54 317.758H84.0113L80.0302 323.404H159.622L163.54 317.758Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M39.9994 380.202H120.437L124.324 374.556H43.9805L39.9994 380.202Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M26.6767 399.114H107.365L111.252 393.5H30.6266L26.6767 399.114Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M53.3535 361.258H133.509L137.365 355.613H57.3347L53.3535 361.258Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M160.06 209.807H238.053L241.94 204.162H164.01L160.06 209.807Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M176.612 298.846H97.334L93.3841 304.46H172.725L176.612 298.846Z" fill="white"
+                fill-opacity="0.15" />
+              <path d="M228.868 223.105H150.687L146.706 228.719H225.012L228.868 223.105Z" fill="white"
+                fill-opacity="0.15" />
+            </svg>
+              <div class="row refer-earn mt-2 mt-md-5  text-center p-3">
+                <div class="col-md-6 mx-auto ">
+                  <h5 class="text-white my-0"><i>Refer And Earn</i></h5>
+                  <p class="text-white font-14 mb-4">Ut enim ad minim veniam, quis ullamco laboris nisi ut aliquip ex ea
+                    com. Ut enim ad minim veniam, quis </p>
+                  <a href="#" class="btn btn-white-outline border-radius-46-px w-170">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- refer earn section end  -->
+
+          <!-- Table design start -->
+          <div class="center-part">
+            <section class="section-padding-80">
+              <div class="p-3 border-divider border-radius-8 box-shadow">
+                <h5 class="text-primary border-bottom-grey pt-3 pb-1">Top Rankers</h5>
+                <div class="dashboard-table">
+                  <table class="w-100 ">
+                    <thead>
+                      <tr>
+                        <th class="min-w-75px">
+                          <!-- <span class="name-title position-relative"></span> -->
+                        </th>
+                        <th class="font-family-urbanist font-20 fw-semibold text-secondary min-w-170px">
+                          Name</th>
+                        <th class=" min-w-120px font-family-urbanist font-20 fw-semibold text-secondary">City</th>
+                        <th class="min-w-120px font-family-urbanist font-20 fw-semibold text-secondary">University</th>
+                        <th class="min-w-120px font-family-urbanist font-20 fw-semibold text-secondary">Rank Hold</th>
+                        <th class=" min-w-120px font-family-urbanist font-20 fw-semibold text-secondary">Subject</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td class="min-w-75px">
+                          <img class="table-user-img w-56 h-56" src="{%  static 'images/user.jpg' %}" alt="Image">
+                        </td>
+                        <td class="d-flex align-items-center min-w-170px">
+                          <p class="text-primary fw-bold mb-0">John Jones
+                            <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                          </p>
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Delhi
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          AIIMS
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          1st Rank
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Anatomy
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="min-w-75px">
+                          <img class="table-user-img w-56 h-56" src="{%  static 'images/user.jpg' %}" alt="Image">
+                        </td>
+                        <td class="d-flex align-items-center min-w-170px">
+                          <p class="text-primary fw-bold mb-0">John Jones
+                            <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                          </p>
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Delhi
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          AIIMS
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          1st Rank
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Anatomy
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="min-w-75px">
+                          <img class="table-user-img w-56 h-56" src="{%  static 'images/user.jpg' %}" alt="Image">
+                        </td>
+                        <td class="d-flex align-items-center min-w-170px">
+                          <p class="text-primary fw-bold mb-0">John Jones
+                            <span class="font-14 text-body d-block mt-1">GEMSNExT Pre-lite</span>
+                          </p>
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Delhi
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          AIIMS
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          1st Rank
+                        </td>
+                        <td class="text-secondary min-w-120px">
+                          Anatomy
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Table design end -->
+        </div>
+
+        <!-- right sidebar  -->
+        <div class="right-side-bar">
+          <div class="bg-white h-100 box-shadow right-side-content p-lg-2 p-md-5 p-4">
+            <div class="d-lg-block d-flex flex-wrap align-items-center justify-content-between count-number">
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">6</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Ranked</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">45</h2>
+                <span class="text-secondary mb-0 mt-2 d-block mb-1">Days Left</span>
+                <span class="font-10 bg-white-smoke py-1 px-2 border-radius-8">Pre-Clinical</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">40</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Test Attempted</span>
+              </div>
+              <div class="py-md-4 py-3 border-bottom-grey count-number-content text-center">
+                <h2 class="text-primary">5</h2>
+                <span class="text-secondary mb-0 mt-2 d-block">Mock Test Attempted</span>
+              </div>
+            </div>
+            <span
+              class="text-primary-linear-gradient font-18 text-center fw-bold mb-4 pt-4 d-block">LATEST
+              CONTEST</span>
+            <div class="latest-contest-details d-lg-block d-flex justify-content-between">
+              <div class="text-center position-relative latest-contest me-lg-1 me-md-3 mb-40">
+                <div
+                  class="card box-shadow p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-1">Live</span>
+                  <img class="mx-auto w-40 d-block mb-1" src="{%  static 'images/enter-prize.png' %}" alt="Image">
+                  <span class="d-block text-primary fw-semibold mb-1 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-1">There are many variations of passages of Lorem Ipsum</p>
+                  <span>
+                    <a href="#" class="font-10 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                      Contest</a>
+                  </span>
+                </div>
+              </div>
+              <div class="text-center position-relative latest-contest me-lg-1 me-md-3 mb-40">
+                <div
+                  class="card box-shadow p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-1">Live</span>
+                  <img class="mx-auto w-40 d-block mb-1" src="{%  static 'images/enter-prize.png' %}" alt="Image">
+                  <span class="d-block text-primary fw-semibold mb-1 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-1">There are many variations of passages of Lorem Ipsum</p>
+                  <span>
+                    <a href="#" class="font-10 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                      Contest</a>
+                  </span>
+                </div>
+              </div>
+              <div class="text-center position-relative latest-contest me-lg-1 mb-40">
+                <div
+                  class="card box-shadow p-2 latest-contest-bg-gradient d-flex flex-column position-relative pe-2 pb-2">
+                  <span class="align-self-end badge badge-red-outline mb-1">Live</span>
+                  <img class="mx-auto w-40 d-block mb-1" src="{%  static 'images/enter-prize.png' %}" alt="Image">
+                  <span class="d-block text-primary fw-semibold mb-1 font-14">Weekend Contest</span>
+                  <p class="font-10 mb-1">There are many variations of passages of Lorem Ipsum</p>
+                  <span>
+                    <a href="#" class="font-10 btn btn-primary-outline fw-normal py-1 px-2 border-radius-46-px">Launch
+                      Contest</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer start -->
+    <footer  class="bg-secondary footer position-relative">
+      <span class="position-absolute footer-cross-img">
+        <svg xmlns="http://www.w3.org/2000/svg" width="286" height="371" viewBox="0 0 286 371" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M98.4887 48.3497H34.341L43.4777 61.2187H107.444L98.4887 48.3497Z" fill="url(#paint0_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M115.555 72.8675H51.7594L60.896 85.7467H124.51L115.555 72.8675Z" fill="url(#paint1_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M132.616 97.3953H69.1635L78.3102 110.264H141.571L132.616 97.3953Z" fill="url(#paint2_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M149.684 121.913H86.5839L95.7206 134.792H158.639L149.684 121.913Z" fill="url(#paint3_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M166.748 146.441H104L113.137 159.31H175.703L166.748 146.441Z" fill="url(#paint4_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M334.651 170.959H266.363L257.79 183.828H325.514L334.641 170.959H334.651ZM121.406 170.959L130.553 183.828H192.776L183.821 170.959H121.406Z" fill="url(#paint5_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M317.263 195.476H250.043L241.471 208.345H308.137L317.263 195.476ZM200.875 195.476H138.822L147.959 208.345H209.83L200.875 195.476Z" fill="url(#paint6_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M299.868 220.004H233.716L226 231.582L217.941 220.004H156.241L165.378 232.873H290.742L299.868 220.004Z" fill="url(#paint7_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M282.471 244.522H173.647L182.794 257.391H273.344L282.471 244.522Z" fill="url(#paint8_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M265.083 269.04H191.063L193.098 271.914L186.117 281.919H269.465L262.665 272.449L265.083 269.04Z" fill="url(#paint9_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M277.848 293.568H177.98L168.984 306.437H287.105L277.848 293.568Z" fill="url(#paint10_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M295.476 318.085H233.383L241.986 330.954H304.733L295.476 318.085ZM225.909 318.085H160.844L151.849 330.954H217.508L225.909 318.085Z" fill="url(#paint11_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M313.114 342.613H249.773L258.375 355.482H322.372L313.114 342.613ZM209.912 342.613H143.719L134.724 355.482H201.501L209.902 342.613H209.912Z" fill="url(#paint12_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M330.743 367.131H266.152L274.754 380H340L330.743 367.131ZM193.895 367.131H126.584L117.588 380H185.493L193.895 367.131Z" fill="url(#paint13_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M81.425 23.8319H16.9247L26.0714 36.701H90.3803L81.425 23.8319Z" fill="url(#paint14_linear_184_6043)" fill-opacity="0.2"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M8.65308 12.1832H73.3145L64.8428 0H0L8.65308 12.1832Z" fill="url(#paint15_linear_184_6043)" fill-opacity="0.2"/>
+          <defs>
+          <linearGradient id="paint0_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint3_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint4_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint5_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint6_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint7_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint8_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint9_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint10_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint11_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint12_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint13_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint14_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          <linearGradient id="paint15_linear_184_6043" x1="65.361" y1="5.53399" x2="293.068" y2="379.616" gradientUnits="userSpaceOnUse">
+          <stop offset="0.183951" stop-color="#8755DE" stop-opacity="0"/>
+          <stop offset="0.617708" stop-color="#8755DE"/>
+          </linearGradient>
+          </defs>
+          </svg>
+      </span>
+      <div class="container">
+        <div class="row section-padding-80">
+          <div class="col-md-6 col-sm-6 mb-md-0 mb-4">
+            <a href="#">
+              <img class="img-fluid mb-3" src="{%  static 'images/gemsnext-logo-footer.svg' %}" alt="Image">
+            </a>
+            <div class="footer-social-icon mb-md-5 mb-4">
+              <a class="text-decoration-none footer-link me-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M19.1663 2.49959C18.3683 3.06249 17.4848 3.49302 16.5497 3.77459C16.0478 3.19752 15.3808 2.7885 14.6389 2.60286C13.897 2.41722 13.1159 2.46392 12.4014 2.73664C11.6869 3.00935 11.0734 3.49493 10.6438 4.12769C10.2143 4.76045 9.98942 5.50987 9.99967 6.27459V7.10792C8.5352 7.1459 7.08407 6.8211 5.77552 6.16246C4.46696 5.50382 3.34161 4.53179 2.49967 3.33292C2.49967 3.33292 -0.833659 10.8329 6.66634 14.1663C4.95011 15.3312 2.90564 15.9154 0.833008 15.8329C8.33301 19.9996 17.4997 15.8329 17.4997 6.24959C17.4989 6.01747 17.4766 5.78592 17.433 5.55792C18.2835 4.71917 18.8837 3.66018 19.1663 2.49959Z"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a class="text-decoration-none footer-link me-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M14.9997 1.66699H12.4997C11.3946 1.66699 10.3348 2.10598 9.5534 2.88738C8.77199 3.66878 8.33301 4.72859 8.33301 5.83366V8.33366H5.83301V11.667H8.33301V18.3337H11.6663V11.667H14.1663L14.9997 8.33366H11.6663V5.83366C11.6663 5.61265 11.7541 5.40068 11.9104 5.2444C12.0667 5.08812 12.2787 5.00033 12.4997 5.00033H14.9997V1.66699Z"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a class="text-decoration-none footer-link me-3" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                  <path
+                    d="M20.8013 6.00445C20.801 6.0014 20.8006 5.99866 20.8001 5.99562C20.7875 5.91033 20.5857 4.60123 20.0039 4.01563C19.2422 3.21875 18.3906 3.21484 18 3.16797C15.2031 2.96484 11.0039 2.96484 11.0039 2.96484C11.0039 2.96484 11.0039 2.96484 11.0039 2.96484H10.9961C10.9961 2.96484 10.9961 2.96484 10.9961 2.96484C10.9961 2.96484 6.79687 2.96484 4 3.16797C3.60938 3.21484 2.75781 3.21875 1.99609 4.01563C1.41007 4.60545 1.21329 5.92926 1.20351 5.99728C1.2032 5.99947 1.20311 6.00012 1.20284 6.00232C1.19432 6.07102 1 7.65652 1 9.23828V10.7539C1 12.3219 1.18729 13.8936 1.19868 13.9877C1.19905 13.9908 1.19941 13.9935 1.19986 13.9966C1.21247 14.0819 1.41414 15.391 1.99219 15.9766C2.75391 16.7734 3.75391 16.7461 4.19922 16.832C5.79169 16.9835 10.9411 17.0307 10.9995 17.0312C11.0013 17.0313 10.9988 17.0313 11.0006 17.0312C11.0587 17.0311 15.2227 17.022 18 16.8242C18.3906 16.7773 19.2422 16.7734 20.0039 15.9766C20.5858 15.3908 20.7876 14.0813 20.8001 13.9965C20.8006 13.9935 20.8009 13.9909 20.8013 13.9879C20.8126 13.8952 21 12.3264 21 10.7539V9.23828C21 7.67027 20.8127 6.09859 20.8013 6.00445ZM9.66372 12.2152C9.3309 12.3878 8.93359 12.1462 8.93359 11.7713V7.79772C8.93359 7.4222 9.3321 7.1807 9.66499 7.35448L13.484 9.34819C13.8427 9.53546 13.8419 10.0491 13.4827 10.2353L9.66372 12.2152Z"
+                    stroke="white" stroke-width="1.5" />
+                </svg>
+              </a>
+              <a class="text-decoration-none footer-link" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="white">
+                  <path
+                    d="M10.0053 2.62102C12.4114 2.62102 12.6963 2.63157 13.6426 2.67376C14.522 2.71244 14.9969 2.86013 15.3135 2.9832C15.7321 3.14495 16.0346 3.34186 16.3477 3.65482C16.6643 3.97128 16.8577 4.27017 17.0195 4.68861C17.1427 5.00508 17.2904 5.4833 17.3291 6.35886C17.3713 7.30826 17.3819 7.59308 17.3819 9.99473C17.3819 12.3999 17.3713 12.6847 17.3291 13.6306C17.2904 14.5097 17.1427 14.9844 17.0195 15.3008C16.8577 15.7193 16.6607 16.0217 16.3477 16.3346C16.0311 16.6511 15.7321 16.8445 15.3135 17.0063C14.9969 17.1293 14.5185 17.277 13.6426 17.3157C12.6928 17.3579 12.4079 17.3684 10.0053 17.3684C7.59918 17.3684 7.31425 17.3579 6.36799 17.3157C5.48857 17.277 5.01368 17.1293 4.69709 17.0063C4.27848 16.8445 3.97596 16.6476 3.66289 16.3346C3.3463 16.0182 3.15282 15.7193 2.99101 15.3008C2.86789 14.9844 2.72015 14.5062 2.68145 13.6306C2.63924 12.6812 2.62869 12.3964 2.62869 9.99473C2.62869 7.58957 2.63924 7.30475 2.68145 6.35886C2.72015 5.47978 2.86789 5.00508 2.99101 4.68861C3.15282 4.27017 3.34981 3.96777 3.66289 3.65482C3.97948 3.33835 4.27848 3.14495 4.69709 2.9832C5.01368 2.86013 5.49209 2.71244 6.36799 2.67376C7.31425 2.63157 7.59918 2.62102 10.0053 2.62102ZM10.0053 1C7.56048 1 7.25445 1.01055 6.29412 1.05274C5.33731 1.09494 4.6795 1.24966 4.10963 1.47119C3.51515 1.70326 3.01212 2.00918 2.51261 2.51201C2.00958 3.01133 1.70354 3.51416 1.47137 4.1049C1.24976 4.67806 1.09498 5.3321 1.05277 6.28853C1.01055 7.252 1 7.55792 1 10.0018C1 12.4456 1.01055 12.7515 1.05277 13.7115C1.09498 14.6679 1.24976 15.3255 1.47137 15.8951C1.70354 16.4894 2.00958 16.9922 2.51261 17.4915C3.01212 17.9908 3.51515 18.3003 4.10612 18.5288C4.6795 18.7503 5.33379 18.9051 6.2906 18.9473C7.25093 18.9895 7.55697 19 10.0018 19C12.4466 19 12.7526 18.9895 13.7129 18.9473C14.6697 18.9051 15.3275 18.7503 15.8974 18.5288C16.4884 18.3003 16.9914 17.9908 17.4909 17.4915C17.9904 16.9922 18.3 16.4894 18.5286 15.8986C18.7502 15.3255 18.905 14.6714 18.9472 13.715C18.9894 12.755 19 12.4491 19 10.0053C19 7.56144 18.9894 7.25552 18.9472 6.29557C18.905 5.33913 18.7502 4.68158 18.5286 4.11194C18.307 3.51416 18.001 3.01133 17.4979 2.51201C16.9984 2.0127 16.4954 1.70326 15.9044 1.4747C15.3311 1.25317 14.6768 1.09846 13.72 1.05626C12.7561 1.01055 12.4501 1 10.0053 1Z" />
+                  <path
+                    d="M10 5C7.23954 5 5 7.23954 5 10C5 12.7605 7.23954 15 10 15C12.7605 15 15 12.7605 15 10C15 7.23954 12.7605 5 10 5ZM10 13.2433C8.20913 13.2433 6.75665 11.7909 6.75665 10C6.75665 8.20913 8.20913 6.75665 10 6.75665C11.7909 6.75665 13.2433 8.20913 13.2433 10C13.2433 11.7909 11.7909 13.2433 10 13.2433Z" />
+                  <path
+                    d="M16 5C16 5.55375 15.5505 6 15 6C14.4463 6 14 5.55049 14 5C14 4.44625 14.4495 4 15 4C15.5505 4 16 4.44951 16 5Z" />
+                </svg>
+              </a>
+            </div>
+            <a href="#" class="text-white text-decoration-none footer-link font-14">
+              <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path
+                  d="M16.3452 20C16.2522 20 16.1583 19.9923 16.0644 19.9765C12.4712 19.3699 8.88939 17.4327 5.97839 14.5217C3.06739 11.6107 1.13023 8.02886 0.523561 4.43586C0.418743 3.81379 0.668548 3.19153 1.17544 2.81203C1.96659 2.21886 2.82394 1.67426 3.72378 1.19373C4.18478 0.94756 4.74143 0.935327 5.21316 1.16085C7.11799 2.07328 8.35966 3.64168 8.90383 5.82235C9.02987 6.32815 8.90669 6.87255 8.5748 7.27898L7.22108 8.93568C7.14015 9.03458 7.12967 9.17233 7.19484 9.27807C8.21424 10.9306 9.56917 12.2857 11.222 13.3052C11.3278 13.3703 11.4655 13.3599 11.5644 13.2787L13.2208 11.9253C13.6275 11.5932 14.1719 11.4702 14.6772 11.5959C14.6774 11.5959 14.6774 11.596 14.6776 11.596C16.8583 12.1402 18.4266 13.3819 19.3389 15.2865C19.5649 15.7584 19.5524 16.3153 19.3061 16.7763C18.8257 17.6759 18.2811 18.5333 17.6876 19.3248C17.3657 19.755 16.8686 20 16.3452 20ZM4.50153 2.3717C4.45582 2.3717 4.41025 2.38257 4.36995 2.40405C3.53154 2.85164 2.73349 3.35842 1.99779 3.91004C1.90332 3.98081 1.85664 4.09519 1.87572 4.20847C2.43542 7.52297 4.23672 10.8415 6.94788 13.553C9.65938 16.2641 12.978 18.0655 16.2925 18.6251C16.4039 18.6443 16.5198 18.5978 16.5904 18.5035C17.1425 17.7674 17.6492 16.9693 18.0966 16.1311C18.1377 16.0542 18.1398 15.9578 18.1023 15.8794C17.3649 14.3397 16.1361 13.374 14.346 12.9272C14.2574 12.905 14.1616 12.9278 14.0883 12.9878L12.4319 14.3412C11.8806 14.7919 11.1052 14.8445 10.5022 14.473C8.66591 13.34 7.16058 11.8348 6.02791 9.99864C5.65623 9.39571 5.70903 8.62026 6.15936 8.06897L7.51307 6.41227C7.57277 6.33923 7.5955 6.24281 7.57349 6.15479C7.12681 4.36495 6.16106 3.13612 4.62116 2.39829C4.58398 2.38058 4.5429 2.37179 4.50156 2.37179L4.50153 2.3717Z"
+                  fill="white" />
+              </svg>
+              +91 9999999999
+            </a>
+            <a href="#" class="text-white text-decoration-none footer-link font-14 d-block mt-3">
+              <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M20 4.782C20 4.21296 19.7743 3.6676 19.3722 3.26596C18.9708 2.86351 18.4258 2.6377 17.8571 2.6377H2.14297C1.57432 2.6377 1.02932 2.86351 0.627962 3.26596C0.225784 3.6676 0 4.21296 0 4.782V16.2184C0 16.7874 0.225778 17.3327 0.627962 17.7344C1.02932 18.1369 1.57432 18.3627 2.14297 18.3627H17.8571C18.4258 18.3627 18.9708 18.1369 19.3722 17.7344C19.7743 17.3327 20 16.7874 20 16.2184V4.782ZM18.5715 4.99788L11.3721 11.0012C10.5771 11.6639 9.42279 11.6639 8.6279 11.0012L1.42851 4.99788V16.2182C1.42851 16.4076 1.50353 16.5899 1.63775 16.7235C1.77137 16.8579 1.95345 16.933 2.14282 16.933H17.857C18.0463 16.933 18.2284 16.8579 18.3621 16.7235C18.4963 16.5899 18.5713 16.4076 18.5713 16.2182L18.5715 4.99788ZM17.4558 4.06719H2.54436L9.54293 9.90313C9.80793 10.124 10.1923 10.124 10.4573 9.90313L17.4558 4.06719Z"
+                  fill="white" />
+              </svg>
+              dummy@gmail.com
+            </a>
+          </div>
+
+          <div class="col-md-2 col-6 mb-md-0 mb-4">
+            <h6 class="font-14 font-weight-semibold text-white mb-3">COMPANY</h6>
+            <div class="company-link">
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">About</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">News</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Blogs</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14" href="#">Contact</a>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 mb-sm-0 mb-4">
+            <h6 class="font-14 font-weight-semibold text-white mb-3">KNOWLEDGE</h6>
+            <div class="company-link">
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Link</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Link</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Link</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14" href="#">Link</a>
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-6 ">
+            <h6 class="font-14 font-weight-semibold text-white mb-3">QUICK LINKS</h6>
+            <div class="company-link">
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">NExT Exam</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Courses</a>
+              <a class="d-block text-decoration-none footer-link text-white font-14 mb-12" href="#">Pricing</a>
+            </div>
+          </div>
+        </div>
+        <!-- <hr class="w-80pr mx-auto mb-0">
+        <div class="d-sm-flex align-items-center justify-content-between py-12">
+          <p class="text-white font-12 mb-sm-0 mb-2">2023. All rights reserved.</p>
+          <sapn class="font-12 mb-0">
+            <a href="#" class="text-white text-decoration-none footer-link">Privacy Policy</a>
+            <a href="#" class="text-white text-decoration-none footer-link ms-4">Terms & Conditions</a>
+          </span>
+        </div> -->
+      </div>
+    </footer>
+      <!-- footer end -->
+  </main>
+
+</body>
+
+<script src="{%  static 'js/gemsnext-compress.min.js' %}"></script>
+</html>

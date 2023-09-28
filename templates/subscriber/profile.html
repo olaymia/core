@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>profile</title>
+
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/gemsnext-compress.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.min.css' %}">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+</head>
+
+<body>
+    <header class="position-fixed w-100 z-index-100">
+        <nav class="py-3 bg-primary-linear-gradient text-center">
+            <a href="" class="text-decoration-none text-white">
+                <img class="img-fluid w-150 h-24" src="{% static 'images/gemsnext-white-logo.svg' %}" alt="Image" />
+            </a>
+        </nav>
+    </header>
+
+    <!-- profile section start -->
+    <main class="profile">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-6 mt-5 p-3 p-lg-5">
+                    <!-- user info section start -->
+                    <div class="user-info text-center mb-xl-5 mb-3">
+                        <img src="{% static 'images/user.jpg' %}" alt="user-img" class="user-info-img w-194  py-4" />
+                        <h4 class="font-20 text-secondary d-block fw-semibold font-family-urbanist">{{user.first_name}}</h4>
+                        <p class="text-body font-14">@{{user.username}}</p>
+
+                    </div>
+                    <form class="user-personal-info">
+                        <div class="d-lg-flex w-100 mb-20">
+                            <div class="me-3 w-100 mb-3 mb-sm-0">
+                                <label class="font-16 fw-semibold text-secondary mb-1">First Name</label>
+                                <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                    placeholder="Enter your first name">
+                            </div>
+                            <div class="w-100">
+                                <label class="font-16 fw-semibold text-secondary mb-1">Last Name</label>
+                                <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                    placeholder="Enter your last name">
+                            </div>
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Email</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Date of Birth</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your date of birth">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Address</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your address">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Gender</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Male/Female">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Plan Opted For</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Pre-Clinical/Para-Clinical/Clinical">
+                        </div>
+                        <div class="mb-40">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Contact Number</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your contact number">
+                        </div>
+                        <div class="text-center mb-2 mb-md-5">
+                            <button class="btn btn-primary w-170 font-14 fw-bold">save</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- user info section end -->
+
+
+
+                <div class="col-md-6 bg-grey-light mt-0 mt-md-5 p-3 p-lg-5">
+
+
+                     <!-- collage details section start-->
+                    <form class="collage-name mb-40 position-relative">
+                        <h6 class="font-20 mb-4 black-after-line d-inline-block">Collage Name</h6>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Name of the University</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your university name">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Year of Passing</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Pursing/Completed">
+                        </div>
+                    </form>
+                    <!-- collage details section start-->
+                       <!-- social profile section start-->
+                    <form class="social-profiles position-relative">
+                        <h6 class="font-20 mb-4 black-after-line d-inline-block">Social Profiles</h6>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Facebook</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your facebook profile">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Twitter</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your twitter profile">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Linkedin</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your linkedin profile">
+                        </div>
+                        <div class="mb-20">
+                            <label class="font-16 fw-semibold text-secondary  mb-1">Instagram</label>
+                            <input type="text" class="w-100 border-grey border-active-pink text-body border-radius-8 px-12 py-2"
+                                placeholder="Enter your instagram profile">
+                        </div>
+                    </form>
+                    <!-- social profile section end-->
+                </div>
+            </div>
+        </div>
+        <!-- footer start -->
+        <div class="px-0" id="footer"></div>
+        <!-- footer end-->
+    </main>
+    <!-- profile section end -->
+</body>
+<script src="./assets/js/gemsnext-compress.min.js"></script>
+<script>
+    $(function () {
+        $("#footer").load("./footer.html");
+    });
+</script>
+
+</html>
