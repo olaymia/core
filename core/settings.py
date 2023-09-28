@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$n=jbp(02111_acsqltl8j@39x#7&sdgsv+ap&nir=4ufgc^nr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['13.200.113.57', 'app.gemsnext.com', 'www.app.gemsnext.com', 'localhost']
+ALLOWED_HOSTS = ['3.109.101.178', 'app.gemsnext.com', 'www.app.gemsnext.com', 'localhost']
 
 
 # Application definition
